@@ -1,19 +1,21 @@
 body{
     font-family: Montserrat;
-    background: url( "../images/20190531_134956.jpg") no-repeat top center;
+    background: url( "../images/2.jpg") no-repeat top center;
+    background-size: 100%;
 
 }
 
 
 #navbarNav{
 
-font-size: 2em;
+font-size: 1.8em;
+    color: white;
+
 }
 
 .nav-link {
     margin-right: 21px;
+    color:white!important;
 }
 
-.dropdown-item{
-    font-size: 2em;
-}
+
