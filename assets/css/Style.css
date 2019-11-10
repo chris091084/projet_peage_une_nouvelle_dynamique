@@ -8,44 +8,13 @@ body{
 }
 
 /* LE header***********************/
-
-.photoCandidat{
-
-    width:300px;
-    height: 300px;
-    background-color: #4180CB;
-}
-
-.article1{
-     display: flex;
-     justify-content: center;
-     margin-top: 20px;
-
- }
-
-.article2{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    margin-top: 20px;
-
-}
-
-.descrition{
-    width: 600px;
-    display: flex;
-    margin-left: 30px;
-    align-items: center;
-}
-
-
-
-
-
-/*le footer*********************************************/
 .block-nav{
-    background: url( "../images/2.jpg") no-repeat top center;
+    background: url( "../images/2.jpg");
     height: 800px;
+    background-attachment: fixed;
+    background-repeat: no-reapet !important;
+    background-position: top !important;
+    background-size: cover !important;
     text-align: center;
     padding-top:400px;
 }
@@ -69,8 +38,9 @@ nav.black{
 
 
 h1{
-color:white;
-    font-size: 6em;
+    color:white;
+    font-size: 6rem;
+    text-shadow: black 9px 0 50px;
 }
 
 
@@ -81,10 +51,73 @@ color:white;
     color:white!important;
 }
 
-.navbar-nav{
+@media screen and (max-width: 1330px){
+    h1{
+        font-size: 4rem;
+    }
+
 
 }
-/* LE header***********************/
+@media screen and (max-width: 790px){
+    .block-nav{
+        padding-top:350px;
+    }
+}
+
+
+
+/***corps page*********/
+
+.photoCandidat{
+    width:300px;
+    height: 300px;
+    background-color: #4180CB;
+}
+
+.article1{
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+
+ }
+
+.article2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.descrition{
+    width: 40%;
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media screen and (max-width: 700px){
+
+    .article1{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .article2{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+/*le footer*********************************************/
+
 
 
 .footer{
