@@ -2,8 +2,14 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "quantify";
+    src: url("../fonts/Quantify.ttf") format("ttf"),
+    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
 body{
-    font-family: Montserrat,Arial;
+    font-family: quantify, Montserrat,Arial;
     margin:auto;
 }
 
@@ -21,13 +27,24 @@ body{
 
 
 .logo{
-    width:120px;
-    height:120px;
+    width:300px;
+    height:300px;
+    position: absolute;
+
+
+    top: 10px; left: 20px;
+
 }
-nav.black{
-    background-color: black;
+nav{
+    background-color: rgb(74, 94, 227); /* changement de la couleur en violet*/
 }
 
+.nav-link:hover{
+
+    cursor: pointer ;
+    transition: border, 0.5s;
+    box-shadow:inset -3px -1px 24px 3px rgba(255,255,255,0.3);
+}
 
 #navbarNav {
 
@@ -38,7 +55,7 @@ nav.black{
 
 
 h1{
-    color:white;
+    color:white; /*changement de la police en quantify mettre le l est le P enmajuscule*****/
     font-size: 6rem;
     text-shadow: black 9px 0 50px;
 }
@@ -71,6 +88,7 @@ h1{
 .photoCandidat{
     width:300px;
     height: 300px;
+    border-radius: 10px;
     background-color: #4180CB;
 }
 
@@ -120,9 +138,10 @@ h1{
 
 
 
-.footer{
-    background: #152F4F;
-    color:white;
+.footer {
+    background: rgb(74, 94, 227);
+    color: white;
+}
 
 .links{
 ul {list-style-type: none;}
