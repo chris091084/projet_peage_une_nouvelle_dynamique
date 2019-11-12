@@ -1,0 +1,170 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "quantify";
+    src: url("../fonts/Quantify.ttf") format("ttf"),
+    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
+body{
+    font-family: quantify, Montserrat,Arial;
+    margin:auto;
+}
+
+/* LE header***********************/
+.block-nav{
+    background: url( "../images/2.jpg");
+    height: 800px;
+    background-attachment: fixed;
+    background-repeat: no-reapet !important;
+    background-position: top !important;
+    background-size: cover !important;
+    text-align: center;
+    padding-top:400px;
+}
+
+
+.logo{
+    width:300px;
+    height:300px;
+    position: absolute;
+
+
+    top: 10px; left: 20px;
+
+}
+nav{
+    background-color: rgb(74, 94, 227); /* changement de la couleur en violet*/
+}
+
+.nav-link:hover{
+
+    cursor: pointer ;
+    transition: border, 0.5s;
+    box-shadow:inset -3px -1px 24px 3px rgba(255,255,255,0.3);
+}
+
+#navbarNav {
+
+    font-size: 1.6em;
+    color: white;
+}
+
+
+
+h1{
+    color:white; /*changement de la police en quantify mettre le l est le P enmajuscule*****/
+    font-size: 6rem;
+    text-shadow: black 9px 0 50px;
+}
+
+
+
+
+.nav-link {
+    margin-right: 21px;
+    color:white!important;
+}
+
+@media screen and (max-width: 1330px){
+    h1{
+        font-size: 4rem;
+    }
+
+
+}
+@media screen and (max-width: 790px){
+    .block-nav{
+        padding-top:350px;
+    }
+}
+
+
+
+/***corps page*********/
+
+.photoCandidat{
+    width:300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #4180CB;
+}
+
+.article1{
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+
+ }
+
+.article2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.descrition{
+    width: 40%;
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media screen and (max-width: 700px){
+
+    .article1{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .article2{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+/*le footer*********************************************/
+
+
+
+.footer {
+    background: rgb(74, 94, 227);
+    color: white;
+}
+
+.links{
+ul {list-style-type: none;}
+li a{
+    color: white;
+    transition: color .2s;
+&:hover{
+     text-decoration:none;
+     color:#4180CB;
+ }
+}
+}
+.about-company{
+i{font-size: 25px;}
+a{
+    color:white;
+    transition: color .2s;
+&:hover{color:#4180CB}
+}
+}
+.location{
+i{font-size: 18px;}
+}
+.copyright p{border-top:1px solid rgba(255,255,255,.1);}
+}
+
