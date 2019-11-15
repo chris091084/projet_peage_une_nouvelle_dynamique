@@ -139,8 +139,6 @@ h1{
 
 
 
-
-
 /*le footer*********************************************/
 
 
@@ -150,41 +148,56 @@ h1{
     color: white;
 }
 
-.links{
-ul {list-style-type: none;}
-li a{
+
+ul {
+    list-style-type: none;
+}
+li a {
     color: white;
     transition: color .2s;
-&:hover{
-     text-decoration:none;
-     color:#4180CB;
- }
 }
-}
-.about-company{
+
+
+
 i{font-size: 25px;}
 a{
     color:white;
     transition: color .2s;
-&:hover{color:#4180CB}
 }
+
+
+i{
+    font-size: 18px;}
 }
-.location{
-i{font-size: 18px;}
+
+.copyright p{
+    border-top:1px solid rgba(255,255,255,.1);
 }
-.copyright p{border-top:1px solid rgba(255,255,255,.1);}
-}
+
 
 /***partie équipe********/
 
-.image_test{
+.carte-equipe{
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+}
+
+.titrep-photo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.photos-liste{
     width: 300px;
     height: 300px;
     border: black solid;
     background-color: red;
-
 }
 
-.dert{
+.commentaire-liste{
     color:red;
+    width: 600px;
+    align-self: flex-end;
+    text-align: justify;
 }
