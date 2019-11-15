@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48af174e-5039-46d8-9124-f1bc2ea14d6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Projet_Seb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/bbc31b7f-e4e2-461e-b0c2-e5188ab47c09.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/bbc31b7f-e4e2-461e-b0c2-e5188ab47c09/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Quantify.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/quantify.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/LOGO LE PEAGE UNE NOUVELLE DYNAMIQUE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/LOGO.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/LOGO_gris .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/LOGO_transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/seb30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/Accueil.html" afterDir="false" />
-    </list>
+    <list default="true" id="48af174e-5039-46d8-9124-f1bc2ea14d6c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
