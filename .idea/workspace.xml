@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48af174e-5039-46d8-9124-f1bc2ea14d6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index/equipe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Preview.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Quantify.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/quantify.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/Accueil.html" beforeDir="false" afterPath="$PROJECT_DIR$/index/Accueil.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projet_2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -66,6 +59,7 @@
       <workItem from="1573546762753" duration="598000" />
       <workItem from="1573578834643" duration="1427000" />
       <workItem from="1573665121113" duration="1346000" />
+      <workItem from="1573722209198" duration="1129000" />
     </task>
     <servers />
   </component>
