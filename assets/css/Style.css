@@ -177,10 +177,15 @@ i{
 
 /***partie équipe********/
 
+.equipes{
+    display: flex;
+    flex-direction: row;
+}
+
 .carte-equipe{
     display: flex;
     flex-direction: column;
-    border: solid black;
+    width: 50%;
 }
 
 .titrep-photo{
@@ -200,4 +205,6 @@ i{
     width: 600px;
     align-self: flex-end;
     text-align: justify;
+    margin-right: 100px;
+    margin-top: 20px;
 }
