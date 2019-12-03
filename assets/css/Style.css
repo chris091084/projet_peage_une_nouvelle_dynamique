@@ -94,11 +94,16 @@ section{
 
 
 .photoCandidat{
-    width:300px;
-    height: 300px;
+    width:460px;
+    height: 460px;
     border-radius: 10px;
     background-color: #4180CB;
 }
+
+.biographie{
+text-align: justify;
+}
+
 
 .article1{
      display: flex;
