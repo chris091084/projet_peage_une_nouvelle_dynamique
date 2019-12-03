@@ -131,7 +131,36 @@ section{
     height: 600px;
     width: 100%;
     background-color: rgb(74, 94, 227);
+
 }
+
+.election{
+font-size: 5em;
+    color: white;
+    text-align: center;
+}
+
+aside{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+}
+
+.p-aside1{
+    font-size: 2.5em;
+    text-align: justify;
+    color: white ;
+}
+.p-aside2{
+    font-size: 1.5em;
+    color: white;
+    margin-left: 80px;
+}
+
+
+
+
 
 
 
