@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48af174e-5039-46d8-9124-f1bc2ea14d6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Projet_Seb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/bbc31b7f-e4e2-461e-b0c2-e5188ab47c09.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/bbc31b7f-e4e2-461e-b0c2-e5188ab47c09/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Quantify.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/quantify.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/LOGO LE PEAGE UNE NOUVELLE DYNAMIQUE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/LOGO.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/LOGO_gris .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/LOGO_transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/seb30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/Accueil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/Accueil.html" beforeDir="false" afterPath="$PROJECT_DIR$/Accueil.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +20,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1TQBVfjnSuoy4JdSyg3l1Bp49Es" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -72,6 +63,18 @@
       <workItem from="1573472059928" duration="610000" />
       <workItem from="1573546762753" duration="598000" />
       <workItem from="1573578834643" duration="358000" />
+      <workItem from="1574500633193" duration="599000" />
+      <workItem from="1574520615596" duration="2786000" />
+      <workItem from="1574530065503" duration="1031000" />
+      <workItem from="1574585505438" duration="1168000" />
+      <workItem from="1574669945365" duration="1506000" />
+      <workItem from="1574756163393" duration="690000" />
+      <workItem from="1575447049979" duration="177000" />
+      <workItem from="1576308463190" duration="727000" />
+      <workItem from="1576687222648" duration="2909000" />
+      <workItem from="1576749373773" duration="598000" />
+      <workItem from="1578855904381" duration="2467000" />
+      <workItem from="1578903960010" duration="599000" />
     </task>
     <servers />
   </component>
@@ -90,5 +93,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

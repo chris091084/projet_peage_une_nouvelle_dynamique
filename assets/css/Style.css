@@ -3,13 +3,21 @@
 }
 
 @font-face {
-    font-family: "quantify";
-    src: url("../fonts/Quantify.ttf") format("ttf"),
-    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+    font-family: 'Quantify Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Quantify Regular'), url('Quantify.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Quantify Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Quantify Bold'), url('Quantify Bold.woff') format('woff');
 }
 
 body{
-    font-family: quantify, Montserrat,Arial;
     margin:auto;
 }
 
@@ -36,7 +44,8 @@ body{
 
 }
 nav{
-    background-color: rgb(74, 94, 227); /* changement de la couleur en violet*/
+    background-color: rgb(92, 74, 153); /* changement de la couleur en violet*/
+    font-family: Quantify Regular, Montserrat,Arial;
 }
 
 .nav-link:hover{
@@ -58,6 +67,7 @@ h1{
     color:white; /*changement de la police en quantify mettre le l est le P enmajuscule*****/
     font-size: 6rem;
     text-shadow: black 9px 0 50px;
+    font-family: Quantify Regular, Montserrat,Arial;
 }
 
 
@@ -85,17 +95,35 @@ h1{
 
 /***corps page*********/
 
+h2{
+    font-family: Quantify Regular, Montserrat,Arial;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
 .photoCandidat{
-    width:300px;
-    height: 300px;
+    width:460px;
+    height: 460px;
     border-radius: 10px;
     background-color: #4180CB;
 }
+
+.biographie{
+text-align: justify;
+}
+
 
 .article1{
      display: flex;
      justify-content: center;
      margin-top: 20px;
+    margin-bottom: 20px;
 
  }
 
@@ -110,9 +138,51 @@ h1{
 .descrition{
     width: 40%;
     display: flex;
+    flex-direction: column;
     margin-left: 30px;
     align-items: center;
 }
+.nomSebastien{
+    align-self: flex-start;
+}
+
+.about{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(74, 94, 227);
+
+}
+
+.election{
+font-size: 5em;
+    color: white;
+    text-align: center;
+}
+
+aside{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+}
+
+.p-aside1{
+    font-size: 2.5em;
+    text-align: justify;
+    color: white ;
+}
+.p-aside2{
+    font-size: 1.5em;
+    color: white;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+
 
 /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
 @media screen and (max-width: 700px){
@@ -164,7 +234,9 @@ a{
 }
 .location{
 i{font-size: 18px;}
+
+.copyright p{
+    border-top:1px solid rgba(255,255,255,.1);
 }
-.copyright p{border-top:1px solid rgba(255,255,255,.1);}
-}
+
 
