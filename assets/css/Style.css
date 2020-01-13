@@ -3,13 +3,21 @@
 }
 
 @font-face {
-    font-family: "quantify";
-    src: url("../fonts/Quantify.ttf") format("ttf"),
-    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+    font-family: 'Quantify Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Quantify Regular'), url('Quantify.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Quantify Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Quantify Bold'), url('Quantify Bold.woff') format('woff');
 }
 
 body{
-    font-family: quantify, Montserrat,Arial;
     margin:auto;
 }
 
@@ -36,7 +44,8 @@ body{
 
 }
 nav{
-    background-color: rgb(74, 94, 227); /* changement de la couleur en violet*/
+    background-color: rgb(92, 74, 153); /* changement de la couleur en violet*/
+    font-family: Quantify Regular, Montserrat,Arial;
 }
 
 .nav-link:hover{
@@ -58,6 +67,7 @@ h1{
     color:white; /*changement de la police en quantify mettre le l est le P enmajuscule*****/
     font-size: 6rem;
     text-shadow: black 9px 0 50px;
+    font-family: Quantify Regular, Montserrat,Arial;
 }
 
 
@@ -84,6 +94,10 @@ h1{
 
 
 /***corps page*********/
+
+h2{
+    font-family: Quantify Regular, Montserrat,Arial;
+}
 
 section{
     display: flex;
