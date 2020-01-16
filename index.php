@@ -1,3 +1,5 @@
+<?php require('index/form.php');
+?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -9,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/Style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
-    <title>le péage une nouvelle dynamique</title> <!-- à définir-->
+    <title>le péage une nouvelle dynamique !</title> <!-- à définir-->
 
 </head>
 
@@ -102,6 +104,85 @@
             </div>
 
         </article>
+
+        <!--Section: Contact v.2-->
+        <section class="mb-4">
+
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contactez-nous</h2>
+            <!--Section description-->
+            <p class="text-center w-responsive mx-auto mb-5">Si vous voulez nous contacter ou nous rejoindre. Vous pouvez le faire ci dessous.</p>
+
+            <div class="row d-flex justify-content-center">
+
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="index/form.php" method="POST">
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control" required>
+                                    <label for="name" class="">Votre nom et prénom</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control" required>
+                                    <label for="email" class="">Votre email</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Sujet</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" required></textarea>
+                                    <label for="message">Votre message</label>
+                                </div>
+
+                            </div>
+                            <button type="submit" name="submit">Envoyer</button>
+                        </div>
+
+                        <!--Grid row-->
+
+                    </form>
+
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+
+            </div>
+
+        </section>
+        <!--Section: Contact v.2-->
 
 
     </section>

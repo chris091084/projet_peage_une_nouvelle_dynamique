@@ -149,7 +149,7 @@ text-align: justify;
 .about{
     height: 600px;
     width: 100%;
-    background-color: rgb(74, 94, 227);
+    background-color: rgb(92, 74, 153);
 
 }
 
@@ -209,7 +209,7 @@ aside{
 
 
 .footer {
-    background: rgb(74, 94, 227);
+    background-color: rgb(92, 74, 153);
     color: white;
 }
 

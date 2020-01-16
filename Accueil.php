@@ -6,10 +6,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/Style.css">
+    <link rel="stylesheet" href="assets/css/Style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
-    <title>site web de seb</title> <!-- à définir-->
+    <title>le péage une nouvelle dynamique</title> <!-- à définir-->
 
 </head>
 
@@ -42,20 +42,20 @@
                         <a class="nav-link" href="#">L'équipe</a>
                     </li>
                     <li class="nav-item active ">
-                        <a class="nav-link" href="#">Rejoignez nous<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Rejoignez-nous<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
         </nav>
         <div class="block-nav">
-            <img class='logo' src="../assets/images/LOGO_gris%20.png ">
-            <h1> Le Peage, une nouvelle dynamique!<img src=""></h1>
+            <img class='logo' src="assets/images/LOGO_gris%20.png ">
+            <h1> Le Péage, une nouvelle dynamique !<img src=""></h1>
         </div>
     </header>
     <section>
         <article class="article1">
             <div class="photo">
-                <img class="photoCandidat" src="../assets/images/seb30.jpg">
+                <img class="photoCandidat" src="assets/images/seb30.jpg">
             </div>
             <div class="descrition" >
                 <h2 class="nomSebastien">Sébastien COURION</h2>
@@ -77,7 +77,7 @@
 
         <article class="article2">
             <div class="photo">
-                <img class="photoCandidat" src="../assets/images/seb30.jpg">
+                <img class="photoCandidat" src="assets/images/seb30.jpg">
             </div>
             <div class="descrition" >
                 <p>orem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aperiam, culpa cumque doloribus earum libero molestias nam nobis nostrum obcaecati officiis porro quae ratione rerum tempora ut volupt</p>
@@ -86,7 +86,7 @@
         </article>
         <article class="article1">
             <div class="photo">
-                <img class="photoCandidat" src="../assets/images/seb30.jpg">
+                <img class="photoCandidat" src="assets/images/seb30.jpg">
             </div>
             <div class="descrition" >
                 <p>orem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aperiam, culpa cumque doloribus earum libero molestias nam nobis nostrum obcaecati officiis porro quae ratione rerum tempora ut volupt</p>
@@ -95,13 +95,93 @@
 
         <article class="article2">
             <div class="photo">
-                <img class="photoCandidat" src="../assets/images/seb30.jpg">
+                <img class="photoCandidat" src="assets/images/seb30.jpg">
             </div>
             <div class="descrition" >
                 <p>orem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aperiam, culpa cumque doloribus earum libero molestias nam nobis nostrum obcaecati officiis porro quae ratione rerum tempora ut volupt</p>
             </div>
 
         </article>
+
+        <!--Section: Contact v.2-->
+        <section class="mb-4">
+
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contactez-nous</h2>
+            <!--Section description-->
+            <p class="text-center w-responsive mx-auto mb-5">Si vous voulez nous contacter ou nous rejoindre. Vous pouvez le faire ci dessous.</p>
+
+            <div class="row d-flex justify-content-center">
+
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Votre nom et prénom</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Votre email</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Sujet</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                    <label for="message">Votre message</label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+
+            </div>
+
+        </section>
+        <!--Section: Contact v.2-->
 
 
     </section>
