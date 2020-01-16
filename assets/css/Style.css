@@ -17,9 +17,7 @@
     src: local('Quantify Bold'), url('Quantify Bold.woff') format('woff');
 }
 
-body{
-    margin:auto;
-}
+
 li{
     list-style: none;
 
@@ -45,6 +43,7 @@ color: rgb(251 190 68);
     background-size: cover !important;
     text-align: center;
     padding-top:400px;
+
 }
 
 
@@ -79,7 +78,7 @@ nav{
 
 h1{
     color:white; /*changement de la police en quantify mettre le l est le P enmajuscule*****/
-    font-size: 6rem;
+    font-size: 6em;
     text-shadow: black 9px 0 50px;
     font-family: Quantify Regular, Montserrat,Arial;
 }
@@ -168,6 +167,7 @@ text-align: justify;
 
 .pastille{
     height: 90px;
+    float: left;
 }
 
 
@@ -194,6 +194,35 @@ aside{
     color: white;
     margin-left: 80px;
 }
+@media screen and (max-width: 700px){
+    aside{
+        display: flex;
+        flex-direction: column;
+    }
+.article1{
+    align-items: center;
+}
+    .about{
+    height: 100%;
+    }
+
+    .article1{
+    flex-direction: column;
+
+    }
+
+    .descrition{
+    width: 85%;
+    }
+
+
+}
+
+}
+
+
+
+
 
 
 
@@ -247,30 +276,24 @@ aside{
     color: white;
 }
 
-.links{
+
 ul {list-style-type: none;}
 li a{
     color: white;
     transition: color .2s;
-&:hover{
-     text-decoration:none;
-     color:#4180CB;
- }
-}
-}
-.about-company{
-i{font-size: 25px;}
-a{
-    color:white;
-    transition: color .2s;
-&:hover{color:#4180CB}
-}
-}
-.location{
+
+
+
+
 i{font-size: 18px;}
 
 .copyright p{
     border-top:1px solid rgba(255,255,255,.1);
 }
-
+@media screen and (max-width: 700px){
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
 

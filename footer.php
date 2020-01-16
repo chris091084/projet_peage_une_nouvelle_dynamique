@@ -19,8 +19,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-4 col-xs-12 location">
-                    <h4 class="mt-lg-0 mt-sm-4">Adresse</h4>
-                    <p>61 bis rue adolphe garilland <br>38550 Péage de Rousillon</p>
+                    <h4 class="mt-lg-0 mt-sm-4">Téléphone:</h4>
                     <p class="mb-0">06.73.35.82.06</p>
                 </div>
             </div>
