@@ -198,8 +198,17 @@ aside{
     }
 }
 
+/*formulaire************************************/
+
+.btn-light{
+    background-color: rgb(16 170 227);
+}
 
 
+
+.button{
+    margin-left: 12px;
+}
 
 
 

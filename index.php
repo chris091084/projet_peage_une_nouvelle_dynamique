@@ -1,25 +1,10 @@
 <?php require('index/form.php');
+
+require('header.php');
 ?>
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/Style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-
-    <title>le péage une nouvelle dynamique !</title> <!-- à définir-->
-
-</head>
-
 
 <body>
     <header>
-
-
         <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
             <a class="navbar-brand col-5" href="#"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,34 +60,6 @@
                     <p class="p-aside2">Habitants, commerçants, artisans, salariés, agents des services publics, professions libérales, demandeurs d’emploi, retraités mais aussi jeunes en formation ou personnes en reconversion professionnelle ; membres de nos associations festives, culturelles et sportives, ou tout simplement Péageois(es), le programme que je veux porter sera enrichi de vos idées et de vos propositions novatrices dont bon nombre d’entre vous m’ont déjà fait part.</p>
                 </div>
             </aside>
-        </article>
-
-        <article class="article2">
-            <div class="photo">
-                <img class="photoCandidat" src="assets/images/seb30.jpg">
-            </div>
-            <div class="descrition" >
-                <p>orem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aperiam, culpa cumque doloribus earum libero molestias nam nobis nostrum obcaecati officiis porro quae ratione rerum tempora ut volupt</p>
-            </div>
-
-        </article>
-        <article class="article1">
-            <div class="photo">
-                <img class="photoCandidat" src="assets/images/seb30.jpg">
-            </div>
-            <div class="descrition" >
-                <p>orem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aperiam, culpa cumque doloribus earum libero molestias nam nobis nostrum obcaecati officiis porro quae ratione rerum tempora ut volupt</p>
-            </div>
-        </article>
-
-        <article class="article2">
-            <div class="photo">
-                <img class="photoCandidat" src="assets/images/seb30.jpg">
-            </div>
-            <div class="descrition" >
-                <p>orem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aperiam, culpa cumque doloribus earum libero molestias nam nobis nostrum obcaecati officiis porro quae ratione rerum tempora ut volupt</p>
-            </div>
-
         </article>
 
         <!--Section: Contact v.2-->
@@ -166,7 +123,9 @@
                                 </div>
 
                             </div>
-                            <button type="submit" name="submit">Envoyer</button>
+                            <div class="button">
+                            <button class="btn btn-light" type="submit" name="submit">Envoyer</button>
+                            </div>
                         </div>
 
                         <!--Grid row-->
