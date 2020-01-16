@@ -27,3 +27,5 @@
     </div>
 
 </article>
+<?php require('footer.php');
+?>

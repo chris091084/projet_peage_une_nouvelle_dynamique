@@ -20,6 +20,20 @@
 body{
     margin:auto;
 }
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+color: rgb(251 190 68);
+}
+
+
+
 
 /* LE header***********************/
 .block-nav{
@@ -150,8 +164,12 @@ text-align: justify;
     height: 600px;
     width: 100%;
     background-color: rgb(92, 74, 153);
-
 }
+
+.pastille{
+    height: 90px;
+}
+
 
 .election{
 font-size: 5em;
@@ -216,6 +234,13 @@ aside{
 /*le footer*********************************************/
 
 
+.facebookLogo{
+    height: 70px;
+}
+
+.facebookLogo:hover{
+    color: rgb(251 190 68);
+}
 
 .footer {
     background-color: rgb(92, 74, 153);

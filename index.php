@@ -3,37 +3,7 @@
 require('header.php');
 ?>
 
-<body>
-    <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
-            <a class="navbar-brand col-5" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse"  id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active ">
-                        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Le projet
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Nos Actions</a>
-                            <a class="dropdown-item" href="#">Nos Actions</a>
-                            <a class="dropdown-item" href="#">Nos Actions</a>
-                        </div>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">L'équipe</a>
-                    </li>
-                    <li class="nav-item active ">
-                        <a class="nav-link" href="#">Rejoignez-nous<span class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+
         <div class="block-nav">
             <img class='logo' src="assets/images/LOGO_gris%20.png ">
             <h1> Le Péage, une nouvelle dynamique !<img src=""></h1>
@@ -56,14 +26,14 @@ require('header.php');
             <aside>
                 <p class="p-aside1">Cette volonté de vouloir améliorer votre quotidien, je la porterai avec le soutien de 2 forces :</p>
                 <div>
-                    <p class="p-aside2">L’équipe que j’aurai plaisir à conduire, composée de femmes et d’hommes venus d’horizons divers avec des profils variés, prête à s’investir pour la commune, où chacun saura faire abstraction de toutes valeurs partisanes pour ne se soucier que de l’intérêt général pour Le-Péage-de-Roussillon. Elle sera ma source d’inspiration et ma capacité d’innovation.</p>
-                    <p class="p-aside2">Habitants, commerçants, artisans, salariés, agents des services publics, professions libérales, demandeurs d’emploi, retraités mais aussi jeunes en formation ou personnes en reconversion professionnelle ; membres de nos associations festives, culturelles et sportives, ou tout simplement Péageois(es), le programme que je veux porter sera enrichi de vos idées et de vos propositions novatrices dont bon nombre d’entre vous m’ont déjà fait part.</p>
+                    <p class="p-aside2"><img class="pastille" src="assets/images/pastille_jaune.png">L’équipe que j’aurai plaisir à conduire, composée de femmes et d’hommes venus d’horizons divers avec des profils variés, prête à s’investir pour la commune, où chacun saura faire abstraction de toutes valeurs partisanes pour ne se soucier que de l’intérêt général pour Le-Péage-de-Roussillon. Elle sera ma source d’inspiration et ma capacité d’innovation.</p>
+                    <p class="p-aside2"><img class="pastille" src="assets/images/pastille_rose.png">Habitants, commerçants, artisans, salariés, agents des services publics, professions libérales, demandeurs d’emploi, retraités mais aussi jeunes en formation ou personnes en reconversion professionnelle ; membres de nos associations festives, culturelles et sportives, ou tout simplement Péageois(es), le programme que je veux porter sera enrichi de vos idées et de vos propositions novatrices dont bon nombre d’entre vous m’ont déjà fait part.</p>
                 </div>
             </aside>
         </article>
 
         <!--Section: Contact v.2-->
-        <section class="mb-4">
+        <section class="mb-4" id="contact">
 
             <!--Section heading-->
             <h2 class="h1-responsive font-weight-bold text-center my-4">Contactez-nous</h2>
@@ -91,7 +61,7 @@ require('header.php');
                             <!--Grid column-->
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input type="text" id="email" name="email" class="form-control" required>
+                                    <input type="text" id="email" name="email" class="form-control">
                                     <label for="email" class="">Votre email</label>
                                 </div>
                             </div>
@@ -145,40 +115,7 @@ require('header.php');
 
 
     </section>
-    <footer>
-    <div class="mt-5 pt-5 pb-5 footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-xs-12 about-company">
-                    <h2>Commentaire</h2>
-                    <p class="pr-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
-                    <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
-                </div>
-                <div class="col-lg-3 col-xs-12 links">
-                    <h4 class="mt-lg-0 mt-sm-3">Links</h4>
-                    <ul class="m-0 p-0">
-                        <li>- <a href="#">Accueil</a></li>
-                        <li>- <a href="#">L'équipe</a></li>
-                        <li>- <a href="#">Rejoignez-nous</a></li>
-
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-xs-12 location">
-                    <h4 class="mt-lg-0 mt-sm-4">Localisation</h4>
-                    <p>118, chemin du bassard 38121 CHONAS L'amballan</p>
-                    <p class="mb-0"><i class="fa fa-phone mr-3"></i>06.XX.XX.XX.XX</p>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col copyright">
-                    <p class=""><small class="text-white-50">© 2019. Christian COLEY.</small></p>
-                </div>
-            </div>
-        </div>
-    </div>
-    </footer>
-
-</body>
+<?php require_once ('footer.php')?>
 <script type="text/javascript">
 
     $(windows).on ("scroll", function()){
