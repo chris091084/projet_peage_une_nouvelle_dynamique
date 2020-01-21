@@ -8,7 +8,7 @@ require('header.php');
             <img class='logo' src="assets/images/LOGO_gris%20.png ">
             <h1> Le Péage, une nouvelle dynamique !<img src=""></h1>
         </div>
-    </header>
+
     <section>
         <article class="article1">
             <div class="photo">

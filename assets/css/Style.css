@@ -382,9 +382,7 @@ i{font-size: 18px;}
 /*** equipe******/
 
 .photoColis{
-    width:200px;
-    clip-path:ellipse(50% 50%);
-
+    width:400px;
 
 }
 
