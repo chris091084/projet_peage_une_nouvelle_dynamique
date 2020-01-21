@@ -8,11 +8,11 @@ require('header.php');
             <img class='logo' src="assets/images/LOGO_gris%20.png ">
             <h1> Le Péage, une nouvelle dynamique !<img src=""></h1>
         </div>
-    </header>
+
     <section>
         <article class="article1">
             <div class="photo">
-                <img class="photoCandidat" src="assets/images/seb30.jpg">
+                <img class="photoCandidat" src="assets/images/SEB_ronde.png">
             </div>
             <div class="descrition" >
                 <h2 class="nomSebastien">Sébastien COURION</h2>
@@ -25,8 +25,10 @@ require('header.php');
             <h2 class="election">Elections Municipales 2020</h2>
             <aside>
                 <p class="p-aside1">Cette volonté de vouloir améliorer votre quotidien, je la porterai avec le soutien de 2 forces :</p>
-                <div>
+                <div class="p-aside">
+                    <img class="pastille-mobile" src="assets/images/pastille_jaune.png"> <!--ces images sont pour la version mobile-->
                     <p class="p-aside2"><img class="pastille" src="assets/images/pastille_jaune.png">L’équipe que j’aurai plaisir à conduire, composée de femmes et d’hommes venus d’horizons divers avec des profils variés, prête à s’investir pour la commune, où chacun saura faire abstraction de toutes valeurs partisanes pour ne se soucier que de l’intérêt général pour Le-Péage-de-Roussillon. Elle sera ma source d’inspiration et ma capacité d’innovation.</p>
+                    <img class="pastille-mobile" src="assets/images/pastille_rose.png">
                     <p class="p-aside2"><img class="pastille" src="assets/images/pastille_rose.png">Habitants, commerçants, artisans, salariés, agents des services publics, professions libérales, demandeurs d’emploi, retraités mais aussi jeunes en formation ou personnes en reconversion professionnelle ; membres de nos associations festives, culturelles et sportives, ou tout simplement Péageois(es), le programme que je veux porter sera enrichi de vos idées et de vos propositions novatrices dont bon nombre d’entre vous m’ont déjà fait part.</p>
                 </div>
             </aside>
@@ -116,22 +118,3 @@ require('header.php');
 
     </section>
 <?php require_once ('footer.php')?>
-<script type="text/javascript">
-
-    $(windows).on ("scroll", function()){
-        if($(windows).scrollTop()){
-            $('.block-nav').addClass('black');
-
-    }
-
-        else{
-            $('nav').removeClass('black');
-        }
-    })
-</script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-
-</html>

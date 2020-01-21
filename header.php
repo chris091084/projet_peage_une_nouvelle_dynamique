@@ -14,7 +14,8 @@
 </head>
 <body>
 <header>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light ">
+        <!--<h2 class="hashTag"> # AvecSebastienCourion</h2> à mettre si besoin-->
         <a class="navbar-brand col-5" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,22 +26,23 @@
                     <a class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Le projet
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">La ville</a>
-                        <a class="dropdown-item" href="#">Mobilités & écologie</a>
-                        <a class="dropdown-item" href="#">Economie et emploi</a>
-                        <a class="dropdown-item" href="#">Mieux vivre ensemble</a>
+                        <a class="dropdown-item" href="laVille.php">La ville</a>
+                        <a class="dropdown-item" href="mobilite.php">Mobilités & écologie</a>
+                        <a class="dropdown-item" href="economie.php">Economie et emploi</a>
+                        <a class="dropdown-item" href="mieuxVivre.php">Mieux vivre ensemble</a>
                     </div>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="Equipe.php">L'équipe</a>
                 </li>
                 <li class="nav-item active ">
-                    <a class="nav-link" href="#contact">Rejoignez-nous<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Rejoignez-nous<span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
     </nav>
+</header>

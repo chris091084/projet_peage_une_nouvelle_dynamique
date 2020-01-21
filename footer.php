@@ -1,7 +1,7 @@
 
 
-<footer>
-    <div class="mt-5 pt-5 pb-5 footer">
+<footer >
+    <div id="test" class="mt-5 pt-5 pb-5 footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-xs-12 about-company">
@@ -31,5 +31,25 @@
         </div>
     </div>
     </footer>
+<script type="text/javascript">
+    //var element = document.getElementById('navbar');
+    //element.onscroll = function(){
+      //  alert("Vous m'avez cliqué !");
+    //}
+    const elt = document.getElementById('test');    // On récupère l'élément sur lequel on veut détecter le clic
+    elt.addEventListener('scroll', function(){          // On écoute l'événement click
+        elt.style.backgroundColor = "#000";               // On change le contenu de notre élément pour afficher "C'est cliqué !"
+    });
+
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
 
 </body>
+
+</html>
+
