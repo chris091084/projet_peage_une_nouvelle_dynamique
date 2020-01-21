@@ -12,7 +12,7 @@ require('header.php');
     <section>
         <article class="article1">
             <div class="photo">
-                <img class="photoCandidat" src="assets/images/seb30.jpg">
+                <img class="photoCandidat" src="assets/images/SEB_ronde.png">
             </div>
             <div class="descrition" >
                 <h2 class="nomSebastien">Sébastien COURION</h2>

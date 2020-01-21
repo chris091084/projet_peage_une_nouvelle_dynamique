@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+
+
 @font-face {
     font-family: 'Quantify Regular';
     font-style: normal;
@@ -34,6 +36,13 @@ color: rgb(251 190 68);
 
 
 /* LE header***********************/
+/*.hashTag{*/
+/*    font-size:1.6em;*/
+/*    color: white;*/
+/*    padding-top: 9px;*/
+/*    width: 400px;*/
+/*}pour la navabar si besoin    */
+
 .block-nav{
     background: url( "../images/2.jpg");
     height: 800px;
@@ -59,6 +68,8 @@ color: rgb(251 190 68);
 nav{
     background-color: rgb(92, 74, 153); /* changement de la couleur en violet*/
     font-family: Quantify Regular, Montserrat,Arial;
+
+
 }
 
 .nav-link:hover{
@@ -130,7 +141,7 @@ section{
     width:460px;
     height: 460px;
     border-radius: 10px;
-    background-color: #4180CB;
+
 }
 
 .biographie{
@@ -143,6 +154,7 @@ text-align: justify;
      justify-content: center;
      margin-top: 20px;
     margin-bottom: 20px;
+    vertical-align: center;
 
  }
 
@@ -151,6 +163,7 @@ text-align: justify;
     flex-direction: row-reverse;
     justify-content: center;
     margin-top: 20px;
+    vertical-align: center;
 
 }
 
@@ -366,5 +379,18 @@ i{font-size: 18px;}
     text-align: left;
 }
 
+/*** equipe******/
 
+.photoColis{
+    width:200px;
+    clip-path:ellipse(50% 50%);
+
+
+}
+
+.descritionColis{
+    float:
+    width: 300px;
+
+}
 
