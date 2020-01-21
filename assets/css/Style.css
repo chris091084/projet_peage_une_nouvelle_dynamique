@@ -104,6 +104,12 @@ h1{
     }
 }
 
+@media screen and (max-width: 700px){
+    h1{
+        font-size: 3.3rem;
+    }
+}
+
 
 
 /***corps page*********/
@@ -169,6 +175,10 @@ text-align: justify;
     height: 90px;
     float: left;
 }
+.pastille-mobile{
+    display: none;
+}
+
 
 
 .election{
@@ -218,15 +228,40 @@ aside{
 
 }
 
+@media screen and (max-width: 700px){
+    .photoCandidat{
+        width:300px;
+        height: 300px;;
+    }
+
+    .election{
+        font-size: 3.5em;
+    }
+    .p-aside1{
+        font-size: 1.9em;
+        text-align: justify;
+        color: white ;
+    }
+    .p-aside2{
+        font-size: 1.5em;
+        color: white;
+        margin-left: 0px;
+    }
+    .p-aside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pastille{
+        display: none;
+    }
+    .pastille-mobile{
+        display: block;
+        height: 90px;
+        width: 90px;
+    }
+
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -256,6 +291,17 @@ aside{
 .button{
     margin-left: 12px;
 }
+
+
+@media screen and (max-width: 700px){
+    #contact{
+        padding-left: 10px;
+        padding-right: 10px;
+}
+
+}
+
+
 
 
 
