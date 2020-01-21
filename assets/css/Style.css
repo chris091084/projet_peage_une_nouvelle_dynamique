@@ -324,9 +324,7 @@ aside{
 
 
 ul {list-style-type: none;}
-li a{
-    color: white;
-    transition: color .2s;
+
 
 
 
@@ -342,4 +340,31 @@ i{font-size: 18px;}
         flex-direction: column;
     }
 }
+
+/* les Projets************************/
+
+.projet{
+    padding-top:120px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+    margin-left: 15%;
+
+}
+
+.titreProjet{
+    text-align: center;
+    font-family: Quantify Regular, Montserrat,Arial;
+}
+
+.intro{
+
+    text-align: center;
+    font-style: italic;
+}
+.detail{
+    text-align: left;
+}
+
+
 
