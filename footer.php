@@ -36,10 +36,28 @@
     //element.onscroll = function(){
       //  alert("Vous m'avez cliqué !");
     //}
-    const elt = document.getElementById('test');    // On récupère l'élément sur lequel on veut détecter le clic
-    elt.addEventListener('scroll', function(){          // On écoute l'événement click
-        elt.style.backgroundColor = "#000";               // On change le contenu de notre élément pour afficher "C'est cliqué !"
-    });
+    // const elt = document.getElementById('logo');    // On récupère l'élément sur lequel on veut détecter le clic
+    // elt.addEventListener('', function(){          // On écoute l'événement click
+    //     elt.style.display = "none";               // On change le contenu de notre élément pour afficher "C'est cliqué !"
+    // });
+    const arrowUp = document.getElementById("navbar");
+
+    console.log(window.scrollY);
+
+    window.addEventListener("scroll", function(){
+
+        if(window.scrollY==0){
+
+            arrowUp.style.backgroundColor = 'transparent';
+        }
+        else{
+
+            arrowUp.style.backgroundColor = "rgb(92, 74, 153)";
+            arrowUp.style.transitionDuration = '0.5s';
+        }
+    }, false);
+
+
 
 </script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
