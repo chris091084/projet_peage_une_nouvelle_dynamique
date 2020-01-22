@@ -59,10 +59,15 @@ color: rgb(251 190 68);
     width:300px;
     height:300px;
     position: absolute;
-
-
     top: 10px; left: 20px;
-
+}
+.logoNav{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    display: none;
 }
 nav{
 
@@ -82,6 +87,7 @@ nav{
 
     font-size: 1.6em;
     color: white;
+    height: 104px;
 }
 
 
@@ -108,9 +114,18 @@ h1{
 
 
 }
-@media screen and (max-width: 790px){
+@media screen and (max-width: 990px){
     .block-nav{
         padding-top:350px;
+    }
+    .logoNav{
+        display: none;
+    }
+    #navbarNav {
+
+        height: auto;
+
+
     }
 }
 

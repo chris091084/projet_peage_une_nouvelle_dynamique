@@ -57,6 +57,64 @@
         }
     }, false);
 
+    const logoUp = document.getElementById("logo");
+
+
+
+    window.addEventListener("scroll", function(){
+
+        if(window.scrollY == 0){
+            logoUp.style.width = '300px';
+            logoUp.style.height = '300px';
+            logoUp.style.position = 'absolute';
+            logoUp.style.top = '10px';
+            logoUp.style.top = '20px';
+
+        }
+        else{
+
+             logoUp.style.width = '100px';
+             logoUp.style.height = '100px';
+             logoUp.style.position = 'absolute';
+             logoUp.style.top = '10px';
+            // logoUp.style.left = '0px';
+            logoUp.style.transitionDuration = '0.8s';
+        }
+    }, false);
+
+    const logoNav = document.getElementById("logoNav");
+
+
+
+    window.addEventListener("scroll", function(){
+
+        if(window.scrollY == 0 || screen.width <=990){
+
+            logoNav.style.display = 'none';
+        }
+        else{
+            logoNav.style.display = 'block';
+            logoNav.style.transitionDuration = '0.5s';
+
+
+        }
+    }, false);
+
+    const navResp = document.getElementById("navbar");
+
+    window.addEventListener("scroll", function(){
+
+        console.log(screen.width);
+        if(window.scrollY == 0 && screen.width<=990){
+            navResp.style.backgroundColor = 'rgb(92, 74, 153)';
+        }
+
+    }, false);
+
+
+
+
+
 
 
 </script>

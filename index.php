@@ -5,7 +5,7 @@ require('header.php');
 
 
         <div class="block-nav">
-            <img class='logo' src="assets/images/LOGO_gris%20.png ">
+            <img id="logo" class='logo' src="assets/images/LOGO_gris%20.png ">
             <h1> Le Péage, une nouvelle dynamique !<img src=""></h1>
         </div>
 

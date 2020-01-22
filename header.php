@@ -21,6 +21,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse"  id="navbarNav">
+            <img id="logoNav" class='logoNav' src="assets/images/LOGO_gris_dec%20.png ">
             <ul class="navbar-nav">
                 <li class="nav-item active ">
                     <a class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
