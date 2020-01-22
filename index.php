@@ -22,7 +22,7 @@ require('header.php');
             </div>
         </article>
         <article class="about">
-            <h2 class="election">Elections Municipales 2020</h2>
+            <h2 class="election">Élections Municipales 2020</h2>
             <aside>
                 <p class="p-aside1">Cette volonté de vouloir améliorer votre quotidien, je la porterai avec le soutien de 2 forces :</p>
                 <div class="p-aside">
