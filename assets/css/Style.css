@@ -52,7 +52,6 @@ color: rgb(251 190 68);
     background-size: cover !important;
     text-align: center;
     padding-top:400px;
-
 }
 
 
@@ -60,13 +59,18 @@ color: rgb(251 190 68);
     width:300px;
     height:300px;
     position: absolute;
-
-
     top: 10px; left: 20px;
-
+}
+.logoNav{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    display: none;
 }
 nav{
-    background-color: rgb(92, 74, 153); /* changement de la couleur en violet*/
+
     font-family: Quantify Regular, Montserrat,Arial;
 
 
@@ -83,6 +87,7 @@ nav{
 
     font-size: 1.6em;
     color: white;
+    height: 104px;
 }
 
 
@@ -109,9 +114,18 @@ h1{
 
 
 }
-@media screen and (max-width: 790px){
+@media screen and (max-width: 990px){
     .block-nav{
         padding-top:350px;
+    }
+    .logoNav{
+        display: none;
+    }
+    #navbarNav {
+
+        height: auto;
+
+
     }
 }
 

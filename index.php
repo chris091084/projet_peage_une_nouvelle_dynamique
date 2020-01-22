@@ -5,7 +5,7 @@ require('header.php');
 
 
         <div class="block-nav">
-            <img class='logo' src="assets/images/LOGO_gris%20.png ">
+            <img id="logo" class='logo' src="assets/images/LOGO_gris%20.png ">
             <h1> Le Péage, une nouvelle dynamique !<img src=""></h1>
         </div>
 
@@ -22,7 +22,7 @@ require('header.php');
             </div>
         </article>
         <article class="about">
-            <h2 class="election">Elections Municipales 2020</h2>
+            <h2 class="election">Élections Municipales 2020</h2>
             <aside>
                 <p class="p-aside1">Cette volonté de vouloir améliorer votre quotidien, je la porterai avec le soutien de 2 forces :</p>
                 <div class="p-aside">
