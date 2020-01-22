@@ -26,10 +26,10 @@ require('header.php');
             <aside>
                 <p class="p-aside1">Cette volonté de vouloir améliorer votre quotidien, je la porterai avec le soutien de 2 forces :</p>
                 <div class="p-aside">
-                    <img class="pastille-mobile" src="assets/images/pastille_jaune.png"> <!--ces images sont pour la version mobile-->
-                    <p class="p-aside2"><img class="pastille" src="assets/images/pastille_jaune.png">L’équipe que j’aurai plaisir à conduire, composée de femmes et d’hommes venus d’horizons divers avec des profils variés, prête à s’investir pour la commune, où chacun saura faire abstraction de toutes valeurs partisanes pour ne se soucier que de l’intérêt général pour Le-Péage-de-Roussillon. Elle sera ma source d’inspiration et ma capacité d’innovation.</p>
-                    <img class="pastille-mobile" src="assets/images/pastille_rose.png">
-                    <p class="p-aside2"><img class="pastille" src="assets/images/pastille_rose.png">Habitants, commerçants, artisans, salariés, agents des services publics, professions libérales, demandeurs d’emploi, retraités mais aussi jeunes en formation ou personnes en reconversion professionnelle ; membres de nos associations festives, culturelles et sportives, ou tout simplement Péageois(es), le programme que je veux porter sera enrichi de vos idées et de vos propositions novatrices dont bon nombre d’entre vous m’ont déjà fait part.</p>
+                    <img class="pastille-mobile" src="assets/images/petiteJaune.png"> <!--ces images sont pour la version mobile-->
+                    <p class="p-aside2"><img class="pastille" src="assets/images/petiteJaune.png">L’équipe que j’aurai plaisir à conduire, composée de femmes et d’hommes venus d’horizons divers avec des profils variés, prête à s’investir pour la commune, où chacun saura faire abstraction de toutes valeurs partisanes pour ne se soucier que de l’intérêt général pour Le-Péage-de-Roussillon. Elle sera ma source d’inspiration et ma capacité d’innovation.</p>
+                    <img class="pastille-mobile" src="assets/images/petiteRose.png">
+                    <p class="p-aside2"><img class="pastille" src="assets/images/petiteRose.png">Habitants, commerçants, artisans, salariés, agents des services publics, professions libérales, demandeurs d’emploi, retraités mais aussi jeunes en formation ou personnes en reconversion professionnelle ; membres de nos associations festives, culturelles et sportives, ou tout simplement Péageois(es), le programme que je veux porter sera enrichi de vos idées et de vos propositions novatrices dont bon nombre d’entre vous m’ont déjà fait part.</p>
                 </div>
             </aside>
         </article>

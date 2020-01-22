@@ -122,10 +122,11 @@ h1{
         display: none;
     }
     #navbarNav {
-
         height: auto;
+    }
 
-
+    .navbar{
+        background-color: rgb(92, 74, 153);/*couleur violet*/
     }
 }
 
@@ -199,9 +200,13 @@ text-align: justify;
 }
 
 .pastille{
-    height: 90px;
+    height: 20px;
     float: left;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-right: 6px;
 }
+
 .pastille-mobile{
     display: none;
 }
@@ -284,8 +289,8 @@ aside{
     }
     .pastille-mobile{
         display: block;
-        height: 90px;
-        width: 90px;
+        height: 30px;
+        margin-bottom: 20px;
     }
 
 }
@@ -322,8 +327,8 @@ aside{
 
 @media screen and (max-width: 700px){
     #contact{
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
 }
 
 }
