@@ -15,7 +15,7 @@ require('header.php');
     <p class="detail"><img class="pastilleSuperposeProjet" src="assets/images/pastilleSuperoposee.png" alt="pastile jaune & bleu superposée">Réaménager les espaces publics : mise en place de mobiliers urbains, amélioration de la propreté et du fleurissement. </p>
     <p class="detail"><img class="pastilleSuperposeProjet" src="assets/images/pastilleSuperoposee.png" alt="pastile jaune & bleu superposée"> Réhabiliter la rue de la gare avec une opération d’aménagement  portant  à  la  fois  sur  la  création  de  logements, de commerces et de services.  </p>
     <p class="detail"><img class="pastilleSuperposeProjet" src="assets/images/pastilleSuperoposee.png" alt="pastile jaune & bleu superposée">Mettre  en  place  un  programme  de  rénovation  des  logements  anciens,  inclure  des  clauses  de  mixité  sociale dans les programmes immobiliers neufs.</p>
-
+    <?php require_once ('legendProjetMobile.php'); ?>
 </section>
 
 
