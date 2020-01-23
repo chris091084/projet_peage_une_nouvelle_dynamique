@@ -40,76 +40,149 @@
     // elt.addEventListener('', function(){          // On écoute l'événement click
     //     elt.style.display = "none";               // On change le contenu de notre élément pour afficher "C'est cliqué !"
     // });
-    const arrowUp = document.getElementById("navbar");
 
-    console.log(window.scrollY);
+    console.log(window.location.host);
 
-    window.addEventListener("scroll", function(){
+    if (window.location.href === 'http://'+window.location.host+'/index.php' || window.location.href === 'http://'+window.location.host+'/Equipe.php' || window.location.href==='http://'+window.location.host+'/' ) {
+        const arrowUp = document.getElementById("navbar");
 
-        if(window.scrollY==0){
+        // console.log(window.scrollY);
 
-            arrowUp.style.backgroundColor = 'transparent';
+        window.addEventListener("scroll", function () {
+
+            if (window.scrollY == 0) {
+
+                arrowUp.style.backgroundColor = 'transparent';
+            } else {
+
+                arrowUp.style.backgroundColor = "rgb(92, 74, 153)";
+                arrowUp.style.transitionDuration = '0.5s';
+            }
+        }, false);
+
+        const logoUp = document.getElementById("logo");
+
+
+        window.addEventListener("scroll", function () {
+
+            if (window.scrollY == 0) {
+                logoUp.style.width = '300px';
+                logoUp.style.height = '300px';
+                logoUp.style.position = 'absolute';
+                logoUp.style.top = '10px';
+                logoUp.style.top = '20px';
+
+            } else {
+
+                logoUp.style.width = '100px';
+                logoUp.style.height = '100px';
+                logoUp.style.position = 'absolute';
+                logoUp.style.top = '10px';
+                // logoUp.style.left = '0px';
+                logoUp.style.transitionDuration = '0.8s';
+            }
+        }, false);
+
+        const logoNav = document.getElementById("logoNav");
+
+
+        window.addEventListener("scroll", function () {
+
+            if (window.scrollY == 0 || screen.width <= 990) {
+
+                logoNav.style.display = 'none';
+            } else {
+                logoNav.style.display = 'block';
+                logoNav.style.transitionDuration = '0.5s';
+
+
+            }
+        }, false);
+
+        const navResp = document.getElementById("navbar");
+
+        window.addEventListener("scroll", function () {
+
+            if (window.scrollY == 0 && screen.width <= 990) {
+                navResp.style.backgroundColor = 'rgb(92, 74, 153)';
+            }
+
+        }, false);
+
+    }
+    else{
+        const colorNav = document.getElementById("navbar");
+        const displayLogo = document.getElementById("logoNav");
+        window.addEventListener("load", function () {
+
+
+                colorNav.style.backgroundColor = 'rgb(92, 74, 153)';
+                console.log('ok');
+            if(screen.width > 990){
+                displayLogo.style.display = 'block';
+            }
+            else{
+                displayLogo.style.display = 'none';
+            }
+
+
+        },false);
+
+        window.addEventListener("resize", function () {
+            if(screen.width > 990){
+                displayLogo.style.display = 'block';
         }
-        else{
+        });
 
-            arrowUp.style.backgroundColor = "rgb(92, 74, 153)";
-            arrowUp.style.transitionDuration = '0.5s';
-        }
-    }, false);
-
-    const logoUp = document.getElementById("logo");
-
-
-
-    window.addEventListener("scroll", function(){
-
-        if(window.scrollY == 0){
-            logoUp.style.width = '300px';
-            logoUp.style.height = '300px';
-            logoUp.style.position = 'absolute';
-            logoUp.style.top = '10px';
-            logoUp.style.top = '20px';
-
-        }
-        else{
-
-             logoUp.style.width = '100px';
-             logoUp.style.height = '100px';
-             logoUp.style.position = 'absolute';
-             logoUp.style.top = '10px';
-            // logoUp.style.left = '0px';
-            logoUp.style.transitionDuration = '0.8s';
-        }
-    }, false);
-
-    const logoNav = document.getElementById("logoNav");
+        window.addEventListener("resize", function () {
+            if(screen.width < 990){
+                displayLogo.style.display = 'none';
+            }
+        });
 
 
 
-    window.addEventListener("scroll", function(){
+        // const displayLogo = document.getElementById("logoNav");
+        //
+        // window.addEventListener("resize", function () {
+        //     if(screen.width > 990) {
+        //
+        //         displayLogo.style.display = 'block';
+        //
+        //     }
+        //     if(screen.width < 990){
+        //         displayLogo.style.display = 'none';
+        //
+        //     }
+        //
+        //
+        // },false);
 
-        if(window.scrollY == 0 || screen.width <=990){
-
-            logoNav.style.display = 'none';
-        }
-        else{
-            logoNav.style.display = 'block';
-            logoNav.style.transitionDuration = '0.5s';
+    }
 
 
-        }
-    }, false);
 
-    const navResp = document.getElementById("navbar");
-
-    window.addEventListener("scroll", function(){
-
-        console.log(screen.width);
-        if(window.scrollY == 0 && screen.width<=990){
-            navResp.style.backgroundColor = 'rgb(92, 74, 153)';
-        }
-
-    }, false);
+    // const colorNav = document.getElementById("navbar");
+    // window.addEventListener("load", function () {
+    //
+    //     if (window.location.href === 'http://localhost:8001/mobilite.php'&& window.scrollY === 0){
+    //         colorNav.style.backgroundColor = 'rgb(92, 74, 153)';
+    //         console.log('ok');
+    //     }
+    //
+    // },false);
+    //
+    // const displayLogo = document.getElementById("logoNav");
+    // window.addEventListener("load", function () {
+    //     if (window.location.href === 'http://localhost:8001/mobilite.php'){
+    //         displayLogo.style.display = 'block';
+    //         console.log('ok');
+    //     }
+    //
+    // },false);
+    //
+    // console.log(colorNav);
+    // console.log(window.location.href);
 
 
 

@@ -24,7 +24,7 @@
             <img id="logoNav" class='logoNav' src="assets/images/LOGO_gris_dec%20.png ">
             <ul class="navbar-nav">
                 <li class="nav-item active ">
-                    <a class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
+                    <a id='colorTitleNav' class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -46,4 +46,11 @@
             </ul>
         </div>
     </nav>
+
+<!--    --><?php //var_dump($_SERVER['REQUEST_URI']);
+//    $mobilite = '/mobilite.php';
+//    $ville = '/ville.php';
+//    $economie = '/economie.php';
+//    $mieuxVivre = '/mieuxVivre.php';
+//    if ($_SERVER['REQUEST_URI'] == '/mobilite.fr'?>
 </header>

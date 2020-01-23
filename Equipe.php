@@ -1,11 +1,15 @@
 <?php require('header.php');
 ?>
+
 <div class="container-fluid">
-    <div class="row ">
-        <div clas=" col-3"><img class="photoColis" src="assets/images/FACEBOOK%20présentation%20ABDI.jpg"></div>
-        <div clas=" col-3"><img class="photoColis" src="assets/images/FACEBOOK%20présentation%20ABDI.jpg"></div>
-        <div clas=" col-3"><img class="photoColis" src="assets/images/FACEBOOK%20présentation%20ABDI.jpg"></div>
-        <div clas=" col-3"><img class="photoColis" src="assets/images/FACEBOOK%20présentation%20ABDI.jpg"></div>
+    <div class="row">
+        <div class=" col"><img class="photoColis" src="assets/images/FACEBOOK%20présentation%20ABDI.jpg"></div>
+
+        <div class=" col"><img class="photoColis" src="assets/images/FACEBOOK%20présentation%20ABDI.jpg"></div>
+
+        <div class=" col"><img class="photoColis" src="assets/images/FACEBOOK%20présentation%20ABDI.jpg"></div>
+
+        <div class=" col"><img class="photoColis" src="assets/images/FACEBOOK%20présentation%20ABDI.jpg"></div>
     </div>
 </div>
 <!--<article class="article2">-->
