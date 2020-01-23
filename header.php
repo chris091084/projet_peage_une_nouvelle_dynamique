@@ -46,4 +46,11 @@
             </ul>
         </div>
     </nav>
+
+<!--    --><?php //var_dump($_SERVER['REQUEST_URI']);
+//    $mobilite = '/mobilite.php';
+//    $ville = '/ville.php';
+//    $economie = '/economie.php';
+//    $mieuxVivre = '/mieuxVivre.php';
+//    if ($_SERVER['REQUEST_URI'] == '/mobilite.fr'?>
 </header>

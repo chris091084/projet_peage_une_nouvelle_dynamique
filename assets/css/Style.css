@@ -376,7 +376,7 @@ i{font-size: 18px;}
 /* les Projets************************/
 
 .projet{
-    padding-top:120px;
+    padding-top:160px;
     display: flex;
     flex-direction: column;
     margin-right: 15%;
@@ -387,15 +387,42 @@ i{font-size: 18px;}
 .titreProjet{
     text-align: center;
     font-family: Quantify Regular, Montserrat,Arial;
+    color: rgb(92, 74, 153);
+
 }
 
 .intro{
 
     text-align: center;
     font-style: italic;
+    color: rgb(92, 74, 153);
 }
 .detail{
     text-align: left;
+    text-align: justify;
+}
+
+.pastilleProjet{
+    height: 20px;
+    float: left;
+}
+.pastilleSuperposeProjet{
+    width: 48px;
+}
+
+.legend{
+    border: solid rgb(92, 74, 153);
+    margin-bottom: 50px;
+}
+.noteLegend{
+    font-style: italic;
+}
+.legendblue{
+    color: rgb(16, 170, 227);
+
+}
+.legendYellow{
+    color: rgb(251, 190, 68);
 }
 
 /*** equipe******/

@@ -111,6 +111,13 @@
 
     }, false);
 
+    const colorNav = document.getElementsByClassName("nav-link ");
+
+    if (window.location.href == 'http://localhost:8000/mobilite.php'){
+        colorNav.style.color = 'red';
+    }
+    console.log(window.location.href);
+
 
 
 
