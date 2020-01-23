@@ -40,10 +40,11 @@
     // elt.addEventListener('', function(){          // On écoute l'événement click
     //     elt.style.display = "none";               // On change le contenu de notre élément pour afficher "C'est cliqué !"
     // });
-    if (window.location.href === 'http://localhost:8001/index.php' || window.location.href === 'http://localhost:8001/Equipe.php' ) {
+
+    if (window.location.href === 'http://localhost:8001/index.php' || window.location.href === 'http://localhost:8001/Equipe.php' || window.location.href==='http://localhost:8001/' ) {
         const arrowUp = document.getElementById("navbar");
 
-        console.log(window.scrollY);
+        // console.log(window.scrollY);
 
         window.addEventListener("scroll", function () {
 
@@ -119,10 +120,16 @@
         },false);
 
         const displayLogo = document.getElementById("logoNav");
-        window.addEventListener("load", function () {
+        window.addEventListener("resize", function () {
+            if(screen.width > 990) {
 
                 displayLogo.style.display = 'block';
-                console.log('ok');
+
+            }
+            if(screen.width < 990){
+                displayLogo.style.display = 'none';
+
+            }
 
 
         },false);
