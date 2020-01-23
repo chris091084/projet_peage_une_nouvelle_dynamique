@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48af174e-5039-46d8-9124-f1bc2ea14d6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/legendProjet.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/economie.php" beforeDir="false" afterPath="$PROJECT_DIR$/economie.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laVille.php" beforeDir="false" afterPath="$PROJECT_DIR$/laVille.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mieuxVivre.php" beforeDir="false" afterPath="$PROJECT_DIR$/mieuxVivre.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobilite.php" beforeDir="false" afterPath="$PROJECT_DIR$/mobilite.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +84,7 @@
       <workItem from="1579601417987" duration="8605000" />
       <workItem from="1579618344129" duration="4265000" />
       <workItem from="1579636310762" duration="4641000" />
+      <workItem from="1579775677369" duration="3263000" />
     </task>
     <servers />
   </component>

@@ -40,83 +40,118 @@
     // elt.addEventListener('', function(){          // On écoute l'événement click
     //     elt.style.display = "none";               // On change le contenu de notre élément pour afficher "C'est cliqué !"
     // });
-    const arrowUp = document.getElementById("navbar");
+    if (window.location.href === 'http://localhost:8001/index.php' || window.location.href === 'http://localhost:8001/Equipe.php' ) {
+        const arrowUp = document.getElementById("navbar");
 
-    console.log(window.scrollY);
+        console.log(window.scrollY);
 
-    window.addEventListener("scroll", function(){
+        window.addEventListener("scroll", function () {
 
-        if(window.scrollY==0){
+            if (window.scrollY == 0) {
 
-            arrowUp.style.backgroundColor = 'transparent';
-        }
-        else{
+                arrowUp.style.backgroundColor = 'transparent';
+            } else {
 
-            arrowUp.style.backgroundColor = "rgb(92, 74, 153)";
-            arrowUp.style.transitionDuration = '0.5s';
-        }
-    }, false);
+                arrowUp.style.backgroundColor = "rgb(92, 74, 153)";
+                arrowUp.style.transitionDuration = '0.5s';
+            }
+        }, false);
 
-    const logoUp = document.getElementById("logo");
-
-
-
-    window.addEventListener("scroll", function(){
-
-        if(window.scrollY == 0){
-            logoUp.style.width = '300px';
-            logoUp.style.height = '300px';
-            logoUp.style.position = 'absolute';
-            logoUp.style.top = '10px';
-            logoUp.style.top = '20px';
-
-        }
-        else{
-
-             logoUp.style.width = '100px';
-             logoUp.style.height = '100px';
-             logoUp.style.position = 'absolute';
-             logoUp.style.top = '10px';
-            // logoUp.style.left = '0px';
-            logoUp.style.transitionDuration = '0.8s';
-        }
-    }, false);
-
-    const logoNav = document.getElementById("logoNav");
+        const logoUp = document.getElementById("logo");
 
 
+        window.addEventListener("scroll", function () {
 
-    window.addEventListener("scroll", function(){
+            if (window.scrollY == 0) {
+                logoUp.style.width = '300px';
+                logoUp.style.height = '300px';
+                logoUp.style.position = 'absolute';
+                logoUp.style.top = '10px';
+                logoUp.style.top = '20px';
 
-        if(window.scrollY == 0 || screen.width <=990){
+            } else {
 
-            logoNav.style.display = 'none';
-        }
-        else{
-            logoNav.style.display = 'block';
-            logoNav.style.transitionDuration = '0.5s';
+                logoUp.style.width = '100px';
+                logoUp.style.height = '100px';
+                logoUp.style.position = 'absolute';
+                logoUp.style.top = '10px';
+                // logoUp.style.left = '0px';
+                logoUp.style.transitionDuration = '0.8s';
+            }
+        }, false);
+
+        const logoNav = document.getElementById("logoNav");
 
 
-        }
-    }, false);
+        window.addEventListener("scroll", function () {
 
-    const navResp = document.getElementById("navbar");
+            if (window.scrollY == 0 || screen.width <= 990) {
 
-    window.addEventListener("scroll", function(){
+                logoNav.style.display = 'none';
+            } else {
+                logoNav.style.display = 'block';
+                logoNav.style.transitionDuration = '0.5s';
 
-        console.log(screen.width);
-        if(window.scrollY == 0 && screen.width<=990){
-            navResp.style.backgroundColor = 'rgb(92, 74, 153)';
-        }
 
-    }, false);
+            }
+        }, false);
 
-    const colorNav = document.getElementsByClassName("nav-link ");
+        const navResp = document.getElementById("navbar");
 
-    if (window.location.href == 'http://localhost:8000/mobilite.php'){
-        colorNav.style.color = 'red';
+        window.addEventListener("scroll", function () {
+
+            if (window.scrollY == 0 && screen.width <= 990) {
+                navResp.style.backgroundColor = 'rgb(92, 74, 153)';
+            }
+
+        }, false);
+
     }
-    console.log(window.location.href);
+    else{
+        const colorNav = document.getElementById("navbar");
+        window.addEventListener("load", function () {
+
+
+                colorNav.style.backgroundColor = 'rgb(92, 74, 153)';
+                console.log('ok');
+
+
+        },false);
+
+        const displayLogo = document.getElementById("logoNav");
+        window.addEventListener("load", function () {
+
+                displayLogo.style.display = 'block';
+                console.log('ok');
+
+
+        },false);
+
+    }
+
+
+
+    // const colorNav = document.getElementById("navbar");
+    // window.addEventListener("load", function () {
+    //
+    //     if (window.location.href === 'http://localhost:8001/mobilite.php'&& window.scrollY === 0){
+    //         colorNav.style.backgroundColor = 'rgb(92, 74, 153)';
+    //         console.log('ok');
+    //     }
+    //
+    // },false);
+    //
+    // const displayLogo = document.getElementById("logoNav");
+    // window.addEventListener("load", function () {
+    //     if (window.location.href === 'http://localhost:8001/mobilite.php'){
+    //         displayLogo.style.display = 'block';
+    //         console.log('ok');
+    //     }
+    //
+    // },false);
+    //
+    // console.log(colorNav);
+    // console.log(window.location.href);
 
 
 
