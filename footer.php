@@ -41,7 +41,9 @@
     //     elt.style.display = "none";               // On change le contenu de notre élément pour afficher "C'est cliqué !"
     // });
 
-    if (window.location.href === 'http://localhost:8001/index.php' || window.location.href === 'http://localhost:8001/Equipe.php' || window.location.href==='http://localhost:8001/' ) {
+    console.log(window.location.host);
+
+    if (window.location.href === 'http://'+window.location.host+'/index.php' || window.location.href === 'http://'+window.location.host+'/Equipe.php' || window.location.href==='http://'+window.location.host+'/' ) {
         const arrowUp = document.getElementById("navbar");
 
         // console.log(window.scrollY);
@@ -110,29 +112,51 @@
     }
     else{
         const colorNav = document.getElementById("navbar");
+        const displayLogo = document.getElementById("logoNav");
         window.addEventListener("load", function () {
 
 
                 colorNav.style.backgroundColor = 'rgb(92, 74, 153)';
                 console.log('ok');
+            if(screen.width > 990){
+                displayLogo.style.display = 'block';
+            }
+            else{
+                displayLogo.style.display = 'none';
+            }
 
 
         },false);
 
-        const displayLogo = document.getElementById("logoNav");
         window.addEventListener("resize", function () {
-            if(screen.width > 990) {
-
+            if(screen.width > 990){
                 displayLogo.style.display = 'block';
+        }
+        });
 
-            }
+        window.addEventListener("resize", function () {
             if(screen.width < 990){
                 displayLogo.style.display = 'none';
-
             }
+        });
 
 
-        },false);
+
+        // const displayLogo = document.getElementById("logoNav");
+        //
+        // window.addEventListener("resize", function () {
+        //     if(screen.width > 990) {
+        //
+        //         displayLogo.style.display = 'block';
+        //
+        //     }
+        //     if(screen.width < 990){
+        //         displayLogo.style.display = 'none';
+        //
+        //     }
+        //
+        //
+        // },false);
 
     }
 
