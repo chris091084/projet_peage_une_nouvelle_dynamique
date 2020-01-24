@@ -41,9 +41,23 @@
     //     elt.style.display = "none";               // On change le contenu de notre élément pour afficher "C'est cliqué !"
     // });
 
-    console.log(window.location.host);
+    const photoAppear = document.getElementsByClassName("photoColis");
 
-    if (window.location.href === 'http://'+window.location.host+'/index.php' || window.location.href === 'http://'+window.location.host+'/Equipe.php' || window.location.href==='http://'+window.location.host+'/' ) {
+    console.log(window.scrollY);
+    console.log(photoAppear.length);
+    window.addEventListener("load", function () {
+
+ for (let i = 0; i< photoAppear.length; i++) {
+
+     photoAppear[i].style.opacity = "1";
+
+
+
+        }
+
+    });
+
+    if (window.location.href === 'http://'+window.location.host+'/index.php' || window.location.href==='http://'+window.location.host+'/' ) {
         const arrowUp = document.getElementById("navbar");
 
         // console.log(window.scrollY);
@@ -110,35 +124,36 @@
         }, false);
 
     }
-    else{
+    else {
         const colorNav = document.getElementById("navbar");
         const displayLogo = document.getElementById("logoNav");
         window.addEventListener("load", function () {
 
 
-                colorNav.style.backgroundColor = 'rgb(92, 74, 153)';
-                console.log('ok');
-            if(screen.width > 990){
+            colorNav.style.backgroundColor = 'rgb(92, 74, 153)';
+            if (screen.width > 990) {
                 displayLogo.style.display = 'block';
-            }
-            else{
+            } else {
                 displayLogo.style.display = 'none';
             }
 
 
-        },false);
+        }, false);
 
         window.addEventListener("resize", function () {
-            if(screen.width > 990){
+            if (screen.width > 990) {
                 displayLogo.style.display = 'block';
-        }
+            }
         });
 
         window.addEventListener("resize", function () {
-            if(screen.width < 990){
+            if (screen.width < 990) {
                 displayLogo.style.display = 'none';
             }
         });
+
+
+
 
 
 

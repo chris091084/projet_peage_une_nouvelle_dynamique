@@ -452,13 +452,31 @@ i{font-size: 18px;}
 
 /*** equipe******/
 
-.photoColis{
-    width:400px;
+.sectionGroupPictures{
+display: flex;
+    justify-content: center;
 
+
+
+}
+.groupPicture {
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 140px;
+}
+
+.photoColis {
+    width: 400px;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+.cardOfTeam{
+    padding-top: 150px;
 }
 
 .descritionColis{
-    float:
     width: 300px;
 
 }
