@@ -1,17 +1,39 @@
 <?php require('header.php');
+
+
+    $team = [
+        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
+        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
+        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
+        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
+        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
+        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
+        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
+        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
+        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
+        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
+        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
+        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
+        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
+    ];
+
 ?>
 
-<div class="container-fluid">
+<div class="container-fluid cardOfTeam">
     <div class="row">
-        <div class=" col"><img class="photoColis" src="assets/images/FACEBOOK%20présentation%20ABDI.jpg"></div>
+        <?php foreach ($team as $people){?>
+        <div class=" col">
+            <img class="photoColis" id="photoColis" src= <?php echo $people;?>>
+        </div>
+        <?php };?> 
 
-        <div class=" col"><img class="photoColis" src="assets/images/FACEBOOK%20présentation%20ABDI.jpg"></div>
 
-        <div class=" col"><img class="photoColis" src="assets/images/FACEBOOK%20présentation%20ABDI.jpg"></div>
-
-        <div class=" col"><img class="photoColis" src="assets/images/FACEBOOK%20présentation%20ABDI.jpg"></div>
     </div>
 </div>
+<div class="sectionGroupPictures">
+    <img class="groupPicture" src="assets/images/groupe37.jpg" alt="photo des colistiers">
+</div>
+
 <!--<article class="article2">-->
 <!--    <div class="photo">-->
 <!--        <img class="photoColis" src="assets/images/SEB_ronde.png">-->
