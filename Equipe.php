@@ -27,7 +27,7 @@
     <div class="row">
         <?php foreach ($team as $people){?>
         <div class=" col">
-            <img class="photoColis" id="photoColis" src= <?php echo $people;?>>
+            <img class="photoColis" id="photoColis" alt="photos d'un colistier" src= <?php echo $people;?>>
         </div>
         <?php };?> 
 

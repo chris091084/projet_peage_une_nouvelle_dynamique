@@ -21,7 +21,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse"  id="navbarNav">
-            <img id="logoNav" class='logoNav' src="assets/images/LOGO_gris_dec%20.png ">
+            <img id="logoNav" class='logoNav' src="assets/images/LOGO_gris_dec%20.png" alt="logo du péage de roussillon">
             <ul class="navbar-nav">
                 <li class="nav-item active ">
                     <a id='colorTitleNav' class="nav-link" href="/">Accueil <span class="sr-only">(current)</span></a>
@@ -46,6 +46,7 @@
             </ul>
         </div>
     </nav>
+</header>
 
 <!--     //var_dump($_SERVER['REQUEST_URI']);
 //    $mobilite = '/mobilite.php';
