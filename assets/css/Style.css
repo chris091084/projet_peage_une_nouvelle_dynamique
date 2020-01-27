@@ -484,14 +484,15 @@ i{font-size: 18px;}
 .sectionGroupPictures{
 display: flex;
     justify-content: center;
-
-
-
 }
+
 .groupPicture {
     height: 500px;
     border-radius: 10px;
     margin-top: 140px;
+}
+.sectionGroupPicturesMobile{
+    display: none;
 }
 
 .photoColis {
@@ -517,4 +518,30 @@ display: flex;
     .legendMobile{
         display: block;
     }
+    .groupPicture{
+        height: 200px;
+        margin-top: 20px;
+        display: none;
+
+    }
+    .photoColis{
+        width: 300px;
+        margin-left: 20px;
+    }
+    .sectionGroupPicturesMobile{
+        display: block;
+
+    }
+    .groupPictureMobile{
+        height: 200px;
+        margin-left: 36px;
+        border-radius: 10px;
+        margin-top: 140px;
+    }
+
+    .cardOfTeam{
+        padding-top: 50px;
+    }
+
+
 }
