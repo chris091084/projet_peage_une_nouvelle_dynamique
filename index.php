@@ -1,6 +1,13 @@
-<?php require('index/form.php');
+<?php
+if(!empty($_POST)) {
+    require('form.php');
+}
 
-require('header.php');
+
+
+    require('header.php');
+
+
 
 
 ?>
@@ -9,6 +16,7 @@ require('header.php');
         <div class="block-nav">
             <img id="logo" class='logo' src="assets/images/LOGO_gris%20.png ">
             <h1> Le Péage, une nouvelle dynamique !<img src=""></h1>
+
         </div>
 
     <section>
@@ -41,6 +49,7 @@ require('header.php');
 
             <!--Section heading-->
             <h2 class="h1-responsive font-weight-bold text-center my-4">Contactez-nous</h2>
+            <h2 class='messageEnvoyé'><?php echo str_replace('/',' ',$_GET['messageSent'])?></h2>
             <!--Section description-->
             <p class="text-center w-responsive mx-auto mb-5">Si vous voulez nous contacter ou nous rejoindre. Vous pouvez le faire ci dessous.</p>
 
@@ -48,7 +57,7 @@ require('header.php');
 
                 <!--Grid column-->
                 <div class="col-md-9 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" action="index/form.php" method="POST">
+                    <form id="contact-form" name="contact-form" action="form.php" method="POST">
 
                         <!--Grid row-->
                         <div class="row">

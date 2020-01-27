@@ -102,6 +102,7 @@ h1{
 
 
 
+
 .nav-link {
     margin-right: 21px;
     color:white!important;
@@ -321,7 +322,13 @@ aside{
 .btn-light{
     background-color: rgb(16 170 227);
 }
+.messageEnvoyé{
+    font-family: Quantify Regular, Montserrat,Arial;
+    color: rgb(19 167 82);
+    text-align: center;
 
+
+}
 
 
 .button{
