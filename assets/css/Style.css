@@ -102,6 +102,7 @@ h1{
 
 
 
+
 .nav-link {
     margin-right: 21px;
     color:white!important;
@@ -194,7 +195,7 @@ text-align: justify;
 }
 
 .about{
-    height: 600px;
+
     width: 100%;
     background-color: rgb(92, 74, 153);
 }
@@ -226,10 +227,19 @@ aside{
     margin: auto;
 }
 
+.titresValeurs{
+    font-family: Quantify Regular, Montserrat,Arial;
+    font-size:1.5em;
+
+}
+
 .p-aside1{
+    font-family: Quantify Regular, Montserrat,Arial;
     font-size: 2.5em;
     text-align: justify;
     color: white ;
+    text-align: center;
+   align-self:  center;
 }
 .p-aside2{
     font-size: 1.5em;
@@ -273,15 +283,23 @@ aside{
     .election{
         font-size: 3.5em;
     }
+    .titresValeurs{
+
+    }
     .p-aside1{
+        display: flex;
+        flex-direction: column;
         font-size: 1.9em;
         text-align: justify;
         color: white ;
     }
     .p-aside2{
+        display: flex;
+        flex-direction: column;
         font-size: 1.5em;
         color: white;
         margin-left: 0px;
+        text-align: center;
     }
     .p-aside{
         display: flex;
@@ -321,7 +339,13 @@ aside{
 .btn-light{
     background-color: rgb(16 170 227);
 }
+.messageEnvoyé{
+    font-family: Quantify Regular, Montserrat,Arial;
+    color: rgb(19 167 82);
+    text-align: center;
 
+
+}
 
 
 .button{
@@ -333,7 +357,12 @@ aside{
     #contact{
         padding-left: 20px;
         padding-right: 20px;
+
 }
+    .contact{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
 }
 

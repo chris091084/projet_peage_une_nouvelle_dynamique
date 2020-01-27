@@ -2,19 +2,23 @@
 
 
     $team = [
-        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
-        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
-        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
-        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
-        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
-        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
-        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
-        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
-        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
-        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
-        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
-        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
-        '"\assets/images/FACEBOOK%20présentation%20ABDI.jpg\"',
+        '"\assets/images/equipe/SITE WEB prВsentation.png"',
+        '"\assets/images/equipe/SITE WEB prВsentation2.png"',
+        '"\assets/images/equipe/SITE WEB prВsentation3.png"',
+        '"\assets/images/equipe/SITE WEB prВsentation4.png"',
+        '"\assets/images/equipe/SITE WEB prВsentation5.png"',
+        '"\assets/images/equipe/SITE WEB prВsentation6.png"',
+        '"\assets/images/equipe/SITE WEB prВsentation7.png"',
+        '"\assets/images/equipe/SITE WEB prВsentation8.png"',
+        '"\assets/images/equipe/SITE WEB prВsentation13.png"',
+        '"\assets/images/equipe/SITE WEB prВsentation14.png"',
+        '"\assets/images/equipe/SITE WEB prВsentation16.png"',
+        '"\assets/images/equipe/SITE WEB prВsentation18.png"',
+        '"\assets/images/equipe/SITE WEB prВsentation19.png"',
+        '"\assets/images/equipe/SITE WEB prВsentation20.png"',
+        '"\assets/images/equipe/SITE WEB prВsentation21.png"',
+        '"\assets/images/equipe/SITE WEB prВsentation22.png"',
+
     ];
 
 ?>

@@ -1,6 +1,13 @@
-<?php require('index/form.php');
+<?php
+if(!empty($_POST)) {
+    require('form.php');
+}
 
-require('header.php');
+
+
+    require_once('header.php');
+
+
 
 
 ?>
@@ -9,6 +16,7 @@ require('header.php');
         <div class="block-nav">
             <img id="logo" class='logo' src="assets/images/LOGO_gris%20.png ">
             <h1> Le Péage, une nouvelle dynamique !<img src=""></h1>
+
         </div>
 
     <section>
@@ -26,21 +34,29 @@ require('header.php');
         <article class="about">
             <h2 class="election">Élections Municipales 2020</h2>
             <aside>
-<!--                <p class="p-aside1">Cette volonté de vouloir améliorer votre quotidien, je la porterai avec le soutien de 2 forces :</p>-->
+                <p class="p-aside1">NOS VALEURS : </p>
                 <div class="p-aside">
                     <img class="pastille-mobile" src="assets/images/petiteJaune.png"> <!--ces images sont pour la version mobile-->
-                    <p class="p-aside2"><img class="pastille" src="assets/images/petiteJaune.png">L’équipe que j’aurai plaisir à conduire, composée de femmes et d’hommes venus d’horizons divers avec des profils variés, prête à s’investir pour la commune, où chacun saura faire abstraction de toutes valeurs partisanes pour ne se soucier que de l’intérêt général pour Le-Péage-de-Roussillon. Elle sera ma source d’inspiration et ma capacité d’innovation.</p>
-                    <img class="pastille-mobile" src="assets/images/petiteRose.png">
-                    <p class="p-aside2"><img class="pastille" src="assets/images/petiteRose.png">Habitants, commerçants, artisans, salariés, agents des services publics, professions libérales, demandeurs d’emploi, retraités mais aussi jeunes en formation ou personnes en reconversion professionnelle ; membres de nos associations festives, culturelles et sportives, ou tout simplement Péageois(es), le programme que je veux porter sera enrichi de vos idées et de vos propositions novatrices dont bon nombre d’entre vous m’ont déjà fait part.</p>
+                    <p class="p-aside2"><img class="pastille" src="assets/images/petiteJaune.png"><span class="titresValeurs">Cohésion :</span> Un projet qui uni, qui prend en compte les diversités et qui soutient la richesse du tissu associatif. </p>
+
+                    <img class="pastille-mobile" src="assets/images/petiteBleu.png">
+                    <p class="p-aside2"><img class="pastille" src="assets/images/petiteBleu.png"><span class="titresValeurs">Développement durable :</span> Un modèle durable de société, un aménagement du territoire symbole de vitalité économique, de préservation des ressources naturelles et tendant à l’épanouissement de chacun. </p>
+
+                    <img class="pastille-mobile" src="assets/images/petiteJaune.png">
+                    <p class="p-aside2"><img class="pastille" src="assets/images/petiteJaune.png"><span class="titresValeurs">Innovation :</span> Des idées novatrices répondant aux besoins de la population et aux évolutions sociétales, pour une commune plus attractive. </p>
+
+                    <img class="pastille-mobile" src="assets/images/petiteBleu.png">
+                    <p class="p-aside2" id="contact"><img class="pastille" src="assets/images/petiteBleu.png"><span class="titresValeurs">Transparence :</span> Une vision démocratique de l’action publique, alliant concertation et communication. Une exemplarité des élus, garant de la maîtrise du budget. </p>
                 </div>
             </aside>
         </article>
 
         <!--Section: Contact v.2-->
-        <section class="mb-4" id="contact">
+        <section class="mb-4 contact" >
 
             <!--Section heading-->
             <h2 class="h1-responsive font-weight-bold text-center my-4">Contactez-nous</h2>
+            <h2 class='messageEnvoyé'><?php echo str_replace('/',' ',$_GET['messageSent'])?></h2>
             <!--Section description-->
             <p class="text-center w-responsive mx-auto mb-5">Si vous voulez nous contacter ou nous rejoindre. Vous pouvez le faire ci dessous.</p>
 
@@ -48,7 +64,7 @@ require('header.php');
 
                 <!--Grid column-->
                 <div class="col-md-9 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" action="index/form.php" method="POST">
+                    <form id="contact-form" name="contact-form" action="form.php" method="POST">
 
                         <!--Grid row-->
                         <div class="row">
@@ -65,7 +81,7 @@ require('header.php');
                             <!--Grid column-->
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input type="text" id="email" name="email" class="form-control">
+                                    <input type="text" id="email" name="email" class="form-control" required>
                                     <label for="email" class="">Votre email</label>
                                 </div>
                             </div>
@@ -78,7 +94,7 @@ require('header.php');
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="md-form mb-0">
-                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <input type="text" id="subject" name="subject" class="form-control" required>
                                     <label for="subject" class="">Sujet</label>
                                 </div>
                             </div>
