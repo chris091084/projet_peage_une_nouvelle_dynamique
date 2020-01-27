@@ -6,8 +6,10 @@ require_once('assets/library/PHPMailer/src/SMTP.php');
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+$_POST['name'] = htmlspecialchars($_POST['name']);
+$_POST['subject'] = htmlspecialchars($_POST['subject']);
+$_POST['message'] = htmlspecialchars($_POST['message']);
 
-$_POST['messageSent']= "Message_envoyé";
 
 $mail = new PHPMailer(true);
 
@@ -24,7 +26,7 @@ try {
 
     //Recipients
     $mail->setFrom($_POST['email'], $_POST['name']);
-    $mail->addAddress('sebastien.courion@lepeage-unenouvelledynamique.fr', $_POST['name']);     // Add a recipient
+    $mail->addAddress('christian.coley@hotmail.fr', $_POST['name']);     // Add a recipient
     //$mail->addAddress('ellen@example.com');               // Name is optional
     //$mail->addReplyTo('info@example.com', 'Information');
     //$mail->addCC('cc@example.com');
