@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-lg-5 col-xs-12 about-company">
                     <h2>Réseau social</h2>
-                    <a href="https://www.facebook.com/LePeageunenouvelledynamique/"><img src="assets/images/F-FACEBOOK.png" class="pr-5 text-white-50 facebookLogo"></a>
+                    <a href="https://www.facebook.com/LePeageunenouvelledynamique/"><img src="assets/images/F-FACEBOOK.png" class="pr-5 text-white-50 facebookLogo" alt="logo et lien vers facebook"></a>
                     <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
                 </div>
                 <div class="col-lg-3 col-xs-12 links">

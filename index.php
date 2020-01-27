@@ -14,15 +14,15 @@ if(!empty($_POST)) {
 
 
         <div class="block-nav">
-            <img id="logo" class='logo' src="assets/images/LOGO_gris%20.png ">
-            <h1> Le Péage, une nouvelle dynamique !<img src=""></h1>
+            <img id="logo" class='logo' src="assets/images/LOGO_gris%20.png " alt="logo péage de roussillon">
+            <h1> Le Péage, une nouvelle dynamique !</h1>
 
         </div>
 
     <section>
         <article class="article1">
             <div class="photo">
-                <img class="photoCandidat" src="assets/images/SEB_ronde.png">
+                <img class="photoCandidat" src="assets/images/SEB_ronde.png" alt="photo du candidat sébastien courion">
             </div>
             <div class="descrition" >
                 <h2 class="nomSebastien">Sébastien COURION</h2>
@@ -36,17 +36,17 @@ if(!empty($_POST)) {
             <aside>
                 <p class="p-aside1">NOS VALEURS : </p>
                 <div class="p-aside">
-                    <img class="pastille-mobile" src="assets/images/petiteJaune.png"> <!--ces images sont pour la version mobile-->
-                    <p class="p-aside2"><img class="pastille" src="assets/images/petiteJaune.png"><span class="titresValeurs">Cohésion :</span> Un projet qui uni, qui prend en compte les diversités et qui soutient la richesse du tissu associatif. </p>
+                    <img class="pastille-mobile" src="assets/images/petiteJaune.png" alt="pastille jaune"> <!--ces images sont pour la version mobile-->
+                    <p class="p-aside2"><img class="pastille" src="assets/images/petiteJaune.png" alt="pastille jaune"><span class="titresValeurs">Cohésion :</span> Un projet qui uni, qui prend en compte les diversités et qui soutient la richesse du tissu associatif. </p>
 
-                    <img class="pastille-mobile" src="assets/images/petiteBleu.png">
-                    <p class="p-aside2"><img class="pastille" src="assets/images/petiteBleu.png"><span class="titresValeurs">Développement durable :</span> Un modèle durable de société, un aménagement du territoire symbole de vitalité économique, de préservation des ressources naturelles et tendant à l’épanouissement de chacun. </p>
+                    <img class="pastille-mobile" src="assets/images/petiteBleu.png" alt="pastille bleu">
+                    <p class="p-aside2"><img class="pastille" src="assets/images/petiteBleu.png" alt="pastille bleu"><span class="titresValeurs">Développement durable :</span> Un modèle durable de société, un aménagement du territoire symbole de vitalité économique, de préservation des ressources naturelles et tendant à l’épanouissement de chacun. </p>
 
-                    <img class="pastille-mobile" src="assets/images/petiteJaune.png">
-                    <p class="p-aside2"><img class="pastille" src="assets/images/petiteJaune.png"><span class="titresValeurs">Innovation :</span> Des idées novatrices répondant aux besoins de la population et aux évolutions sociétales, pour une commune plus attractive. </p>
+                    <img class="pastille-mobile" src="assets/images/petiteJaune.png" alt="pastille jaune">
+                    <p class="p-aside2"><img class="pastille" src="assets/images/petiteJaune.png" alt="pastille jaune"><span class="titresValeurs">Innovation :</span> Des idées novatrices répondant aux besoins de la population et aux évolutions sociétales, pour une commune plus attractive. </p>
 
-                    <img class="pastille-mobile" src="assets/images/petiteBleu.png">
-                    <p class="p-aside2" id="contact"><img class="pastille" src="assets/images/petiteBleu.png"><span class="titresValeurs">Transparence :</span> Une vision démocratique de l’action publique, alliant concertation et communication. Une exemplarité des élus, garant de la maîtrise du budget. </p>
+                    <img class="pastille-mobile" src="assets/images/petiteBleu.png" alt="pastille bleu">
+                    <p class="p-aside2" id="contact"><img class="pastille" src="assets/images/petiteBleu.png" alt="pastille bleu"><span class="titresValeurs">Transparence :</span> Une vision démocratique de l’action publique, alliant concertation et communication. Une exemplarité des élus, garant de la maîtrise du budget. </p>
                 </div>
             </aside>
         </article>
@@ -108,7 +108,7 @@ if(!empty($_POST)) {
                             <div class="col-md-12">
 
                                 <div class="md-form">
-                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" required></textarea>
+                                    <textarea id="message" name="message" rows="2" class="form-control md-textarea" required></textarea>
                                     <label for="message">Votre message</label>
                                 </div>
 
@@ -135,4 +135,5 @@ if(!empty($_POST)) {
 
 
     </section>
+
 <?php require_once ('footer.php')?>
