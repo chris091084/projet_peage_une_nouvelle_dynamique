@@ -28,7 +28,7 @@ require('header.php');
 </section>
 
 <section class="projet">
-    <h2 class="titreProjet">Gérer rigoureusement les défences publics
+    <h2 class="titreProjet">Gérer rigoureusement les dépences publics
         et communiquer de manière transparente</h2>
     <p class="intro">
         Une nouvelle dynamique alliant nouveaux services et

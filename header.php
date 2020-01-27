@@ -24,7 +24,7 @@
             <img id="logoNav" class='logoNav' src="assets/images/LOGO_gris_dec%20.png ">
             <ul class="navbar-nav">
                 <li class="nav-item active ">
-                    <a id='colorTitleNav' class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
+                    <a id='colorTitleNav' class="nav-link" href="/">Accueil <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -41,7 +41,7 @@
                     <a class="nav-link" href="Equipe.php">L'équipe</a>
                 </li>
                 <li class="nav-item active ">
-                    <a class="nav-link" href="#contact">Rejoignez-nous<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href=<?php if ($_SERVER['REQUEST_URI']=='/'){ echo"#contact";} else{echo "/#contact";} ?>>Rejoignez-nous<span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
