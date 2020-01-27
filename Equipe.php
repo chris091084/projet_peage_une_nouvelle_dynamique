@@ -23,6 +23,10 @@
 
 ?>
 
+<div class="sectionGroupPicturesMobile">
+    <img class="groupPictureMobile" src="assets/images/groupe37.jpg" alt="photo des colistiers">
+</div>
+
 <div class="container-fluid cardOfTeam">
     <div class="row">
         <?php foreach ($team as $people){?>
