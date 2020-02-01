@@ -46,40 +46,43 @@
     const photoClearAppear = document.getElementsByClassName("photoColis");
     const photoSombreAppear = document.getElementsByClassName("photoSombreColis");
     const textBio = document.getElementsByClassName("textBio");
-    textBio[0].addEventListener("mouseover", function () {
-
-    photoClearAppear[0].style.opacity = '0';
-    photoSombreAppear[0].style.opacity = '1';
-    textBio[0].style.opacity = '1';
 
 
-    });
-    photoSombreAppear[0].addEventListener("mouseover", function () {
+for( let j=0 ; j< photoClearAppear.length; j++ ){
+        textBio[j].addEventListener("mouseover", function () {
 
-        photoClearAppear[0].style.opacity = '0';
-        photoSombreAppear[0].style.opacity = '1';
-        textBio[0].style.opacity = '1';
-
-
-    });
-    photoSombreAppear[0].addEventListener("mouseout", function () {
-
-        photoClearAppear[0].style.opacity = '1';
-        photoSombreAppear[0].style.opacity = '0';
-        textBio[0].style.opacity = '0';
+            photoClearAppear[j].style.opacity = '0';
+            photoSombreAppear[j].style.opacity = '1';
+            textBio[j].style.opacity = '1';
 
 
-    });
+        });
+        photoSombreAppear[j].addEventListener("mouseover", function () {
 
-    textBio[0].addEventListener("mouseout", function () {
-
-        photoClearAppear[0].style.opacity = '1';
-        photoSombreAppear[0].style.opacity = '0';
-        textBio[0].style.opacity = '0';
+            photoClearAppear[j].style.opacity = '0';
+            photoSombreAppear[j].style.opacity = '1';
+            textBio[j].style.opacity = '1';
 
 
-    });
+        });
+        photoSombreAppear[j].addEventListener("mouseout", function () {
 
+            photoClearAppear[j].style.opacity = '1';
+            photoSombreAppear[j].style.opacity = '0';
+            textBio[j].style.opacity = '0';
+
+
+        });
+
+        textBio[j].addEventListener("mouseout", function () {
+
+            photoClearAppear[j].style.opacity = '1';
+            photoSombreAppear[j].style.opacity = '0';
+            textBio[j].style.opacity = '0';
+
+
+        });
+    }
 
 
 
