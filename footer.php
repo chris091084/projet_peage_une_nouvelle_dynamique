@@ -41,6 +41,48 @@
     //     elt.style.display = "none";               // On change le contenu de notre élément pour afficher "C'est cliqué !"
     // });
 
+    //pour faire apparaitre le text sur les photos
+
+    const photoClearAppear = document.getElementsByClassName("photoColis");
+    const photoSombreAppear = document.getElementsByClassName("photoSombreColis");
+    const textBio = document.getElementsByClassName("textBio");
+    textBio[0].addEventListener("mouseover", function () {
+
+    photoClearAppear[0].style.opacity = '0';
+    photoSombreAppear[0].style.opacity = '1';
+    textBio[0].style.opacity = '1';
+
+
+    });
+    photoSombreAppear[0].addEventListener("mouseover", function () {
+
+        photoClearAppear[0].style.opacity = '0';
+        photoSombreAppear[0].style.opacity = '1';
+        textBio[0].style.opacity = '1';
+
+
+    });
+    photoSombreAppear[0].addEventListener("mouseout", function () {
+
+        photoClearAppear[0].style.opacity = '1';
+        photoSombreAppear[0].style.opacity = '0';
+        textBio[0].style.opacity = '0';
+
+
+    });
+
+    textBio[0].addEventListener("mouseout", function () {
+
+        photoClearAppear[0].style.opacity = '1';
+        photoSombreAppear[0].style.opacity = '0';
+        textBio[0].style.opacity = '0';
+
+
+    });
+
+
+
+
     const photoAppear = document.getElementsByClassName("photoColis");
 
     console.log(window.scrollY);

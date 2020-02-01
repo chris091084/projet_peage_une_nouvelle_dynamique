@@ -500,7 +500,29 @@ display: flex;
     opacity: 0;
     transition-property: opacity;
     transition-duration: 1s;
+
 }
+
+.photoColis:hover{
+    opacity: 0!important;
+
+}
+
+.photoSombreColis {
+    width: 400px;
+    opacity: 0;
+    position: absolute;
+    right: 139px;
+    transition-property: opacity;
+    transition-duration: 1s;
+    left: 15px;
+}
+
+.photoSombreColis:hover{
+    opacity: 1;
+
+}
+
 
 .cardOfTeam{
     padding-top: 150px;
@@ -508,6 +530,42 @@ display: flex;
 
 .descritionColis{
     width: 300px;
+
+}
+.textBio{
+    opacity: 0;
+    text-align: center;
+    text-align: justify;
+    width: 250px;
+    margin-left: 72px;
+    position: absolute;
+    top: 39px;
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black;
+}
+
+.textBio:hover {
+    opacity: 1;
+    text-align: center;
+    text-align: justify;
+    width: 250px;
+    margin-left: 72px;
+    position: absolute;
+    top: 39px;
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black;
+
+
+
+}
+
+.textBio:hover  .photoSombreColis{
+    opacity: 1!important;
+
+}
+
+.textBio:hover  .photoColis{
+    display: none!important;
 
 }
 
@@ -528,6 +586,7 @@ display: flex;
         width: 300px;
         margin-left: 20px;
     }
+
     .sectionGroupPicturesMobile{
         display: block;
 

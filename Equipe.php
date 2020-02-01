@@ -32,6 +32,10 @@
         <?php foreach ($team as $people){?>
         <div class=" col">
             <img class="photoColis" id="photoColis" alt="photos d'un colistier" src= <?php echo $people;?>>
+            <img class="photoSombreColis" alt="photos d'un colistier" src= '\assets/images/equipe_sombre/SITE WEB prВsentation.png'>
+            <p class="textBio">Je suis technico commerciale dans le domaine de l'automobile, mère de 5 enfants.
+                Mon engagement aux côtés de Sébastien Courion est principalement animé par le désir
+                d'apporter soutien et attention aux familles péageoises et plus particulièrement aux plus jeunes.</p>
         </div>
         <?php };?> 
 
