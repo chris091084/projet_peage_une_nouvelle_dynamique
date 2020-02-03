@@ -1,14 +1,17 @@
 <?php
-if(!empty($_POST)) {
+if(!empty($_POST['name'])) {
     require('form.php');
 }
 
 
 
     require_once('header.php');
+if(empty($_POST['password'])) {
 
+    require_once('construction.php');
+}
 
-
+if (($_POST['password'] === 'sebastien')){
 
 ?>
 
@@ -136,4 +139,9 @@ if(!empty($_POST)) {
 
     </section>
 
-<?php require_once ('footer.php')?>
+<?php require_once ('footer.php');
+
+
+}
+else{ header('location:/');}
+;?>
