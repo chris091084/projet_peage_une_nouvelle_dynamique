@@ -542,6 +542,7 @@ display: flex;
     top: 39px;
     color:white;
     text-shadow: -1px 0 black, 0 1px black;
+    font-style:italic ;
 }
 
 .textBio:hover {
@@ -553,8 +554,7 @@ display: flex;
     position: absolute;
     top: 39px;
     color:white;
-    text-shadow: -1px 0 black, 0 1px black;
-
+    text-shadow: -1px 0 black, 0 2px black;
 
 
 }

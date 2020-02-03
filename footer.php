@@ -53,13 +53,16 @@ for( let j=0 ; j< photoClearAppear.length; j++ ){
 
             photoClearAppear[j].style.opacity = '0';
             photoSombreAppear[j].style.opacity = '1';
+            photoSombreAppear[j].style.filter = 'blur(3px)';
             textBio[j].style.opacity = '1';
+
 
 
         });
         photoSombreAppear[j].addEventListener("mouseover", function () {
 
             photoClearAppear[j].style.opacity = '0';
+            photoSombreAppear[j].style.filter = 'blur(3px)';
             photoSombreAppear[j].style.opacity = '1';
             textBio[j].style.opacity = '1';
 
