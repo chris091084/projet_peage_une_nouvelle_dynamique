@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.bievre{
+    font-weight: bold;
+}
+
 
 
 @font-face {
@@ -44,7 +48,7 @@ color: rgb(251 190 68);
 /*}pour la navabar si besoin    */
 
 .block-nav{
-    background: url( "../images/2.jpg");
+    background: url( "../images/vue_generale_10 BD.jpg");
     height: 800px;
     background-attachment: fixed;
     background-repeat: no-reapet !important;
@@ -74,6 +78,9 @@ nav{
     font-family: Quantify Regular, Montserrat,Arial;
 
 
+}
+navbar-toggler-icon{
+    background-color: white;
 }
 
 .nav-link:hover{
@@ -192,6 +199,7 @@ text-align: justify;
 }
 .nomSebastien{
     align-self: flex-start;
+    color: rgb(92, 74, 153) /*violet*/
 }
 
 .about{
@@ -206,6 +214,7 @@ text-align: justify;
     margin-top: 5px;
     margin-left: 2px;
     margin-right: 6px;
+    margin-top: 17px;
 }
 
 .pastille-mobile{
@@ -586,14 +595,19 @@ display: flex;
         width: 300px;
         margin-left: 20px;
     }
+    .photoSombreColis{
+        width: 300px;
+        margin-left: 20px;
+    }
 
     .sectionGroupPicturesMobile{
-        display: block;
+
+        display: flex;
+        justify-content: center;
 
     }
     .groupPictureMobile{
         height: 200px;
-        margin-left: 36px;
         border-radius: 10px;
         margin-top: 140px;
     }

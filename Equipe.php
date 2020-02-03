@@ -77,7 +77,7 @@ $team_sombre = [
 ?>
 
 <div class="sectionGroupPicturesMobile">
-    <img class="groupPictureMobile" src="assets/images/groupe37.jpg" alt="photo des colistiers">
+    <img class="groupPictureMobile" src="assets/images/PHOTO_GROUPE.png" alt="photo des colistiers">
 </div>
 
 <div class="container-fluid cardOfTeam">
@@ -95,7 +95,7 @@ $team_sombre = [
     </div>
 </div>
 <div class="sectionGroupPictures">
-    <img class="groupPicture" src="assets/images/groupe37.jpg" alt="photo des colistiers">
+    <img class="groupPicture" src="assets/images/PHOTO_GROUPE.png" alt="photo des colistiers">
 </div>
 
 <!--<article class="article2">-->

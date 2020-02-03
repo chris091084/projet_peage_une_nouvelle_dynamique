@@ -72,8 +72,8 @@ if(!empty($_POST)) {
                             <!--Grid column-->
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input type="text" id="name" name="name" class="form-control" required>
                                     <label for="name" class="">Votre nom et prénom</label>
+                                    <input placeholder="insérer ici votre nom et prénoms" type="text" id="name" name="name" class="form-control" required>
                                 </div>
                             </div>
                             <!--Grid column-->
@@ -81,8 +81,8 @@ if(!empty($_POST)) {
                             <!--Grid column-->
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input type="text" id="email" name="email" class="form-control" required>
                                     <label for="email" class="">Votre email</label>
+                                    <input placeholder="insérer ici votre email" type="text" id="email" name="email" class="form-control" required>
                                 </div>
                             </div>
                             <!--Grid column-->
@@ -94,8 +94,8 @@ if(!empty($_POST)) {
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="md-form mb-0">
-                                    <input type="text" id="subject" name="subject" class="form-control" required>
                                     <label for="subject" class="">Sujet</label>
+                                    <input placeholder="insérer ici votre sujet" type="text" id="subject" name="subject" class="form-control" required>
                                 </div>
                             </div>
                         </div>
@@ -108,8 +108,8 @@ if(!empty($_POST)) {
                             <div class="col-md-12">
 
                                 <div class="md-form">
-                                    <textarea id="message" name="message" rows="2" class="form-control md-textarea" required></textarea>
                                     <label for="message">Votre message</label>
+                                    <textarea placeholder="insérer ici votre text" id="message" name="message" rows="2" class="form-control md-textarea" required></textarea>
                                 </div>
 
                             </div>

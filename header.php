@@ -14,7 +14,7 @@
 </head>
 <body>
 <header>
-    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light ">
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark ">
         <!--<h2 class="hashTag"> # AvecSebastienCourion</h2> à mettre si besoin-->
         <a class="navbar-brand col-5" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
