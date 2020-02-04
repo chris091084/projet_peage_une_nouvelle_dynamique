@@ -13,7 +13,7 @@ require('header.php');?>
         Accélérer
     </p>
     <p class="detail"><img class="pastilleProjet" src="assets/images/petiteJaune.png" alt="pastille jaune">Accélérer les actions en faveur des économies
-        d’énergies : modernisation de l’éclairage public,
+        d’énergie : modernisation de l’éclairage public,
         isolation des bâtiments, installation de panneaux
         photovoltaïques et acquisition de véhicules propres
         lors du renouvellement de ceux-ci.  </p>
@@ -28,7 +28,7 @@ require('header.php');?>
         participant aux expérimentations liées à la mise en
         place d’un système de consigne sur les emballages
         ménagers, en développant de nouvelles filières de
-        tri pour les emballages plastique (films alimentaires,
+        tri pour les emballages plastiques (films alimentaires,
         barquettes…).</p>
 </section>
 

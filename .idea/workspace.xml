@@ -2,28 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48af174e-5039-46d8-9124-f1bc2ea14d6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bbc31b7f-e4e2-461e-b0c2-e5188ab47c09.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bbc31b7f-e4e2-461e-b0c2-e5188ab47c09.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Equipe.php" beforeDir="false" afterPath="$PROJECT_DIR$/Equipe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation13.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation14.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation16.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation18.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation19.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation19.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation20.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation21.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation21.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation22.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation22.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation7.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation8.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/equipe/SITE WEB prВsentation8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/economie.php" beforeDir="false" afterPath="$PROJECT_DIR$/economie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laVille.php" beforeDir="false" afterPath="$PROJECT_DIR$/laVille.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/legendProjet.php" beforeDir="false" afterPath="$PROJECT_DIR$/legendProjet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/legendProjetMobile.php" beforeDir="false" afterPath="$PROJECT_DIR$/legendProjetMobile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mieuxVivre.php" beforeDir="false" afterPath="$PROJECT_DIR$/mieuxVivre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobilite.php" beforeDir="false" afterPath="$PROJECT_DIR$/mobilite.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,9 +34,15 @@
   </component>
   <component name="ProjectId" id="1TQBVfjnSuoy4JdSyg3l1Bp49Es" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../atelier/PHP/formulaire/-Lyon-Sept2019---PHP---Live-Coding/formulaires_01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -57,18 +51,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -106,6 +88,7 @@
       <workItem from="1579854928128" duration="655000" />
       <workItem from="1579859539878" duration="12009000" />
       <workItem from="1580113086296" duration="14153000" />
+      <workItem from="1580839785882" duration="1738000" />
     </task>
     <servers />
   </component>
@@ -124,6 +107,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="328" y="108" width="709" height="538" key="find.popup" timestamp="1580840137873">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state x="328" y="108" width="709" height="538" key="find.popup/0.27.1366.702@0.27.1366.702" timestamp="1580840137873" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

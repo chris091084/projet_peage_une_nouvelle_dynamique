@@ -13,7 +13,7 @@ require('header.php');
         dédié aux nouvelles formes d’économie et d’emploi.
     </p>
     <p class="detail"><img class="pastilleProjet" src="assets/images/petiteBleu.png" alt="pastille bleu">Faciliter la création d’entreprises en proposant
-        des locaux adaptés (pépinières d’entreprise).
+        des locaux adaptés (pépinière d’entreprises).
         Prendre en compte les nouveaux modes de travail
         via la création d’un espace « coworking » dédié au
         télétravail.</p>
@@ -28,7 +28,7 @@ require('header.php');
 </section>
 
 <section class="projet">
-    <h2 class="titreProjet">Gérer rigoureusement les dépences publics
+    <h2 class="titreProjet">Gérer rigoureusement les dépenses publiques
         et communiquer de manière transparente</h2>
     <p class="intro">
         Une nouvelle dynamique alliant nouveaux services et

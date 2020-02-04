@@ -30,7 +30,7 @@ require('header.php');
     </p>
     <p class="detail"><img class="pastilleProjet" src="assets/images/petiteJaune.png" alt="pastille jaune">Poursuivre le développement en équipements
         numériques de nos écoles (tablettes, wifi, tableaux
-        intéractif…) afin de lutter contre la fracture numérique.   </p>
+        intéractifs…) afin de lutter contre la fracture numérique.   </p>
     <p class="detail"><img class="pastilleProjet" src="assets/images/petiteJaune.png" alt="pastille jaune">Mettre en place un module de sensibilisation à
         l’utilisation et à la prévention des dérives d’internet et
         des réseaux sociaux auprès des scolaires.    </p>
@@ -48,7 +48,7 @@ require('header.php');
         services municipaux périscolaires (garderie, cantine…).</p>
     <p class="detail"><img class="pastilleProjet" src="assets/images/petiteBleu.png" alt="pastille bleu">Proposer une réelle politique intercommunale en
         matière de petite enfance : développement de crèches
-        et de relais d’assistante maternelle (RAM), mise en
+        et de relais d’assistantes maternelles (RAM), mise en
         place d’un guichet unique recensant tous les modes de
         garde.</p>
 </section>
@@ -70,12 +70,12 @@ require('header.php');
         et des services, prendre en compte toutes les formes
         de handicap : former un agent communal à la langue
         des signes française.   </p>
-    <p class="detail"><img class="pastilleProjet" src="assets/images/petiteJaune.png" alt="pastille jaune">Contribuer à l’insertion professionnelle
-        des personnes en difficulté et soutenir le service
-        d’accompagnement vers d’emploi.
+    <p class="detail"><img class="pastilleProjet" src="assets/images/petiteJaune.png" alt="pastille jaune">Entretenir le lien intergénérationnel et le devoir de
+        mémoire envers les plus jeunes.
          </p>
-    <p class="detail"><img class="pastilleSuperposeProjet" src="assets/images/pastilleSuperoposee.png" alt="pastile jaune & bleu superposée">Entretenir le lien intergénérationnel et le devoir de
-        mémoire envers les plus jeunes.</p>
+    <p class="detail"><img class="pastilleSuperposeProjet" src="assets/images/pastilleSuperoposee.png" alt="pastile jaune & bleu superposée">Contribuer à l’insertion professionnelle
+        des personnes en difficulté et soutenir le service
+        d’accompagnement vers d’emploi.</p>
 
 </section>
 

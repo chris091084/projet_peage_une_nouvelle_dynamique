@@ -48,7 +48,7 @@ color: rgb(251 190 68);
 /*}pour la navabar si besoin    */
 
 .block-nav{
-    background: url( "../images/vue_generale_10 BD.jpg");
+    background: url( "../images/imageHome.jpg");
     height: 800px;
     background-attachment: fixed;
     background-repeat: no-reapet !important;
