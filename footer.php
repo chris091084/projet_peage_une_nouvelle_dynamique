@@ -107,8 +107,9 @@ for( let j=0 ; j< photoClearAppear.length; j++ ){
         }
 
     });
-
-    if (window.location.href === 'http://'+window.location.host+'/#contact'||window.location.href === 'http://'+window.location.host+'/index.php' || window.location.href==='http://'+window.location.host+'/' ) {
+console.log(window.location.href);
+console.log('http://'+window.location.host+'?messageSent=message%20envoy%C3%A9/#contact');
+    if (window.location.href === 'http://'+window.location.host+'/?messageSent=message%20envoy%C3%A9/#contact'||window.location.href === 'http://'+window.location.host+'/#contact'||window.location.href === 'http://'+window.location.host+'/index.php' || window.location.href==='http://'+window.location.host+'/' ) {
         const arrowUp = document.getElementById("navbar");
 
         // console.log(window.scrollY);

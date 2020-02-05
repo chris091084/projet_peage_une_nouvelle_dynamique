@@ -44,7 +44,7 @@ try {
 
     $mail->send();
     echo 'Message has been sent';
-    header('location: /index.php?messageSent=message envoyé/#contact');
+    header('location: /?messageSent=message envoyé/#contact');
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
