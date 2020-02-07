@@ -261,8 +261,10 @@ aside{
         flex-direction: column;
     }
     .biographie{
-        width: 350px;
-        margin-right: 30px;
+        width: 100%;
+        margin-right: 0px;
+        padding-right: 25px;
+        padding-left: 25px;
     }
 .article1{
     align-items: center;
@@ -277,8 +279,14 @@ aside{
     }
 
     .descrition{
-    width: 85%;
+    width:100%;
+        margin-left: 0px;
+
     }
+    .nomSebastien{
+        align-self: center;
+    }
+
 
 
 }
@@ -352,8 +360,11 @@ aside{
     font-family: Quantify Regular, Montserrat,Arial;
     color: rgb(19 167 82);
     text-align: center;
+}
 
-
+label{
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
 }
 
 

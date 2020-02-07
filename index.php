@@ -112,12 +112,12 @@ if(!empty($_POST)) {
 
                                 <div class="md-form">
                                     <label for="message">Votre message</label>
-                                    <textarea placeholder="insérer ici votre text" id="message" name="message" rows="2" class="form-control md-textarea" required></textarea>
+                                    <textarea placeholder="insérer ici votre texte" id="message" name="message" rows="2" class="form-control md-textarea" required></textarea>
                                 </div>
 
                             </div>
-                            <div class="button">
-                            <button class="btn btn-light" type="submit" name="submit">Envoyer</button>
+                            <div class="button d-flex justify-content-around">
+                            <button class="btn btn-light d-flex justify-content-around" type="submit" name="submit">Envoyer</button>
                             </div>
                         </div>
 
