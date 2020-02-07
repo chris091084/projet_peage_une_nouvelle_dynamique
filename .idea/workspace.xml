@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="48af174e-5039-46d8-9124-f1bc2ea14d6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Equipe.php" beforeDir="false" afterPath="$PROJECT_DIR$/Equipe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../interaction" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -84,6 +86,7 @@
       <workItem from="1580839785882" duration="1738000" />
       <workItem from="1580891482101" duration="78000" />
       <workItem from="1580891614982" duration="2368000" />
+      <workItem from="1580987066615" duration="3257000" />
     </task>
     <servers />
   </component>
@@ -104,14 +107,22 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="466" y="135" width="424" height="484" key="FileChooserDialogImpl" timestamp="1580987092559">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state x="466" y="135" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.702@0.27.1366.702" timestamp="1580987092559" />
+    <state x="478" y="302" width="399" height="149" key="NewPhpFileDialog" timestamp="1581068945804">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state x="478" y="302" width="399" height="149" key="NewPhpFileDialog/0.27.1366.702@0.27.1366.702" timestamp="1581068945804" />
     <state x="172" y="27" width="1012" height="702" key="SettingsEditor" timestamp="1580842159026">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state x="172" y="27" width="1012" height="702" key="SettingsEditor/0.27.1366.702@0.27.1366.702" timestamp="1580842159026" />
-    <state x="339" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1580891614307">
+    <state x="339" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1580987068580">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
-    <state x="339" y="204" key="com.intellij.ide.util.TipDialog/0.27.1366.702@0.27.1366.702" timestamp="1580891614307" />
+    <state x="339" y="204" key="com.intellij.ide.util.TipDialog/0.27.1366.702@0.27.1366.702" timestamp="1580987068580" />
     <state x="328" y="108" width="709" height="538" key="find.popup" timestamp="1580840137873">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
@@ -122,7 +133,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/form.php</url>
-          <line>5</line>
+          <line>6</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -19,7 +19,7 @@ Je suis sensible au respect des règles de vie en communauté. J’aimerais agir
             ["\"Je m’investis au sein de la liste « Le Péage, une nouvelle dynamique ! » portée par Sébastien Courion pour participer à l‘aménagement et à la réfection des voiries. Créer des trottoirs sécurisés aux abords des voies me semble être quelque chose d’important à mettre en place. \""],
 
         '"\assets/images/equipe/fabrice.png"'=>
-            ["\"Je m’investis au sein de la liste « Le Péage, une nouvelle dynamique ! » portée par Sébastien Courion pour participer à l‘aménagement et à la réfection des voiries. Créer des trottoirs sécurisés aux abords des voies me semble être quelque chose d’important à mettre en place.  \""],
+            ["\"Natif du Péage-de-Roussillon, je veux m'engager pour rendre la commune plus vivante. Je suis attaché à ce que les projets menés soient issus d'un travail collectif avec chacun des membres du conseil municipal. \""],
 
         '"\assets/images/equipe/helene.png"'=>
             ["\"Je m'engage avec la liste « Le Péage, une nouvelle dynamique! » Pour redonner aux péageois le respect et la fierté de leur ville  \""],
@@ -46,7 +46,7 @@ Conseiller municipal sortant, l’équipe conduite par Sébastien Courion me par
 Depuis 2018, je suis bénévole à l'aide à la lecture au Centre Social et je me rends compte que s'occuper de l'Autre est très bénéfique pour soi-même … C'est pourquoi j'ai adhéré à la liste de Sébastien Courion qui est compétent et sincère. \""],
 
         '"\assets/images/equipe/pe.png"'=>
-            ["\"Informaticien en profession libérale, pacsé, 2 filles, péageois depuis 12 ans.
+            ["\"Informaticien en profession libérale, pacsé, 2 filles, péageois depuis 12 ans. 
 Je désire aider à une nouvelle dynamique au Péage-de-Roussillon pour une ville plus sure, plus agréable à vivre pour l’ensemble de ses habitants et ce tout en maîtrisant les dépenses. \""],
 
         '"\assets/images/equipe/rodolphe.png"'=>

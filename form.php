@@ -2,6 +2,7 @@
 require_once('assets/library/PHPMailer/src/PHPMailer.php');
 require_once('assets/library/PHPMailer/src/Exception.php');
 require_once('assets/library/PHPMailer/src/SMTP.php');
+require_once ('assets/library/PHPMailer/Secu.php');
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -13,20 +14,22 @@ $_POST['message'] = htmlspecialchars($_POST['message']);
 
 $mail = new PHPMailer(true);
 
+
 try {
     //Server settings
     $mail->SMTPDebug = 2;                      // Enable verbose debug output
     $mail->isSMTP();                                            // Send using SMTP
     $mail->Host       = 'smtp.ionos.fr';                    // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'sebastien@lepeage-unenouvelledynamique.fr';                     // SMTP username
-    $mail->Password   = 'Denttrou1&11984';                               // SMTP password
+    $mail->Username   = $user;                     // SMTP username
+    $mail->Password   = $mdp;                               // SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
     $mail->Port       = 587;                                    // TCP port to connect to
 
     //Recipients
+
     $mail->setFrom($_POST['email'], $_POST['name']);
-    $mail->addAddress('christian.coley@hotmail.fr', $_POST['name']);     // Add a recipient
+    $mail->addAddress('sebastien.courion@lepeage-unenouvelledynamique.fr', $_POST['name']);     // Add a recipient
     //$mail->addAddress('ellen@example.com');               // Name is optional
     //$mail->addReplyTo('info@example.com', 'Information');
     //$mail->addCC('cc@example.com');
