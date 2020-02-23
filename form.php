@@ -1,5 +1,6 @@
+<body>
 <?php
-require_once('assets/library/PHPMailer/src/PHPMailer.php');
+/*require_once('assets/library/PHPMailer/src/PHPMailer.php');
 require_once('assets/library/PHPMailer/src/Exception.php');
 require_once('assets/library/PHPMailer/src/SMTP.php');
 require_once ('assets/library/PHPMailer/Secu.php');
@@ -50,42 +51,53 @@ try {
     header('location: /?messageSent=message envoyé/#contact');
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+}*/
+
+
+if (!empty($_POST)) {
+    if (isset($_POST['name']))
+        $name = htmlspecialchars($_POST['name']);
+    if (isset($_POST['email']))
+        $email = htmlspecialchars($_POST['email']);
+    if (isset($_POST['message']))
+        $message = htmlspecialchars($_POST['message']);
+    if (isset($_POST['subject']))
+        $subject = htmlspecialchars($_POST['subject']);
+    if ($name === '') {
+        echo "Name cannot be empty.";
+        die();
+    }
+    if ($email === '') {
+        echo "Email cannot be empty.";
+        die();
+    } else {
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            echo "Email format invalid.";
+            die();
+        }
+    }
+    if ($subject === '') {
+        echo "Subject cannot be empty.";
+        die();
+    }
+    if ($message === '') {
+        echo "Message cannot be empty.";
+        die();
+    }
+
+    $content = "From: $name \nEmail: $email \nMessage: $message";
+    $recipient = "sebastien@lepeage-unenouvelledynamique.fr";
+    $mailheader = "From: $email \r\n";
+    mail($recipient, $subject, $content, $mailheader) or die("Error!");
+    echo "Email sent!";
 }
-//if( !empty($_POST)) {
-//    if (isset($_POST['name']))
-//        $name = htmlspecialchars($_POST['name']);
-//    if (isset($_POST['email']))
-//        $email = htmlspecialchars($_POST['email']);
-//    if (isset($_POST['message']))
-//        $message = htmlspecialchars($_POST['message']);
-//    if (isset($_POST['subject']))
-//        $subject = htmlspecialchars($_POST['subject']);
-//    if ($name === '') {
-//        echo "Name cannot be empty.";
-//        die();
-//    }
-//    if ($email === '') {
-//        echo "Email cannot be empty.";
-//        die();
-//    } else {
-//        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-//            echo "Email format invalid.";
-//            die();
-//        }
-//    }
-//    if ($subject === '') {
-//        echo "Subject cannot be empty.";
-//        die();
-//    }
-//    if ($message === '') {
-//        echo "Message cannot be empty.";
-//        die();
-//    }
-//    $content = "From: $name \nEmail: $email \nMessage: $message";
-//    $recipient = "sebastien.courion@lepeage-unenouvelledynamique.fr";
-//    $mailheader = "From: $email \r\n";
-//    mail($recipient, $subject, $content, $mailheader) or die("Error!");
-//    echo "Email sent!";
-//}
 
 ?>
+
+<script>
+    function RedirectionJavascript() {
+        document.location.href = "http://lepeage-unenouvelledynamique.fr/?messageSent=message envoyé/#contact";
+    }
+</script>
+<body onLoad="setTimeout('RedirectionJavascript()', 100)"">
+</body>

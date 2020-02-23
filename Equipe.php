@@ -91,10 +91,10 @@ $team_sombre = [
 
 ?>
 
-<div class="sectionGroupPicturesMobile">
+<!--<div class="sectionGroupPicturesMobile">
     <img class="groupPictureMobile" src="assets/images/PHOTO_GROUPE.png" alt="photo des colistiers">
 </div>
-
+-->
 <div class="container-fluid cardOfTeam">
     <div class="row">
         <?php foreach ($team as $people=>$bio){?>

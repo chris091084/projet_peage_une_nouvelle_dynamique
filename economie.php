@@ -45,6 +45,7 @@ require('header.php');
         et matériels) avec les communes voisines.</p>
     <p class="detail"><img class="pastilleProjet" src="assets/images/petiteBleu.png" alt="pastille bleu">Conclure un pacte financier et fiscal afin d’assurer
         une meilleure répartition des ressources financières.</p>
+    <?php require_once ('legendProjetMobile.php'); ?>
 </section>
 
 
