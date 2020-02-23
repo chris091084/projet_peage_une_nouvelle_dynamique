@@ -649,3 +649,14 @@ display: flex;
     align-items: center;
     margin-top: 20px;
 }
+
+iframe{
+    width: 90% !important;
+    height: 900px;
+}
+
+@media screen and (max-width: 700px){
+    iframe{
+        height: 300px;
+    }
+}

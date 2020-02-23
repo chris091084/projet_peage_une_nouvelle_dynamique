@@ -54,7 +54,7 @@ if(!empty($_POST)) {
             </aside>
         </article>
         <section class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Vq3QAb-bcQE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/FClMa2IYDys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
         <!--Section: Contact v.2-->
         <section class="mb-4 contact" id="contact" >
@@ -78,7 +78,7 @@ if(!empty($_POST)) {
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
                                     <label for="name" class="">Votre nom et prénom</label>
-                                    <input placeholder="insérer ici votre nom et prénoms" type="text" id="name" name="name" class="form-control" required>
+                                    <input placeholder="insérer ici votre nom et prénom" type="text" id="name" name="name" class="form-control" required>
                                 </div>
                             </div>
                             <!--Grid column-->
