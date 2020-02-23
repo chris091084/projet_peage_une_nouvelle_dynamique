@@ -41,6 +41,7 @@
     //     elt.style.display = "none";               // On change le contenu de notre élément pour afficher "C'est cliqué !"
     // });
 
+
     //pour faire apparaitre le text sur les photos
 
     const photoClearAppear = document.getElementsByClassName("photoColis");

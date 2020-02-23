@@ -99,7 +99,7 @@ require('header.php');
     </p>
     <p class="detail"><img class="pastilleProjet" src="assets/images/petiteJaune.png" alt="pastille jaune">Mettre en place un forum des associations afin de
         présenter leurs activités.</p>
-
+    <?php require_once ('legendProjetMobile.php'); ?>
 </section>
 
 

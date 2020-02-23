@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="48af174e-5039-46d8-9124-f1bc2ea14d6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Equipe.php" beforeDir="false" afterPath="$PROJECT_DIR$/Equipe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/economie.php" beforeDir="false" afterPath="$PROJECT_DIR$/economie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mieuxVivre.php" beforeDir="false" afterPath="$PROJECT_DIR$/mieuxVivre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobilite.php" beforeDir="false" afterPath="$PROJECT_DIR$/mobilite.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +41,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../interaction" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -88,6 +93,7 @@
       <workItem from="1580891614982" duration="2368000" />
       <workItem from="1580987066615" duration="3257000" />
       <workItem from="1581103532887" duration="2161000" />
+      <workItem from="1582451455909" duration="1539000" />
     </task>
     <servers />
   </component>
@@ -116,10 +122,10 @@
       <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state x="478" y="302" width="399" height="149" key="NewPhpFileDialog/0.27.1366.702@0.27.1366.702" timestamp="1581068945804" />
-    <state x="172" y="27" width="1012" height="702" key="SettingsEditor" timestamp="1580842159026">
+    <state x="172" y="27" width="1012" height="702" key="SettingsEditor" timestamp="1582452344117">
       <screen x="0" y="27" width="1366" height="702" />
     </state>
-    <state x="172" y="27" width="1012" height="702" key="SettingsEditor/0.27.1366.702@0.27.1366.702" timestamp="1580842159026" />
+    <state x="172" y="27" width="1012" height="702" key="SettingsEditor/0.27.1366.702@0.27.1366.702" timestamp="1582452344117" />
     <state x="339" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1580987068580">
       <screen x="0" y="27" width="1366" height="702" />
     </state>

@@ -56,6 +56,7 @@ require('header.php');?>
     <p class="detail"><img class="pastilleProjet" src="assets/images/petiteBleu.png" alt="pastille bleu">Créer une station de recharge multi-énergies (gaz
         naturel, hydrogène, électricité…) pour encourager le
         développement des énergies alternatives.</p>
+    <?php require_once ('legendProjetMobile.php'); ?>
 </section>
 
 
