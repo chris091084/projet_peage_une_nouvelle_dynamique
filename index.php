@@ -49,13 +49,15 @@ if(!empty($_POST)) {
                     <p class="p-aside2"><img class="pastille" src="assets/images/petiteJaune.png" alt="pastille jaune"><span class="titresValeurs">Innovation :</span> Des idées novatrices répondant aux besoins de la population et aux évolutions sociétales, pour une commune plus attractive. </p>
 
                     <img class="pastille-mobile" src="assets/images/petiteBleu.png" alt="pastille bleu">
-                    <p class="p-aside2" id="contact"><img class="pastille" src="assets/images/petiteBleu.png" alt="pastille bleu"><span class="titresValeurs">Transparence :</span> Une vision démocratique de l’action publique, alliant concertation et communication. Une exemplarité des élus, garant de la maîtrise du budget. </p>
+                    <p class="p-aside2"><img class="pastille" src="assets/images/petiteBleu.png" alt="pastille bleu"><span class="titresValeurs">Transparence :</span> Une vision démocratique de l’action publique, alliant concertation et communication. Une exemplarité des élus, garant de la maîtrise du budget. </p>
                 </div>
             </aside>
         </article>
-
+        <section class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Vq3QAb-bcQE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
         <!--Section: Contact v.2-->
-        <section class="mb-4 contact" >
+        <section class="mb-4 contact" id="contact" >
 
             <!--Section heading-->
             <h2 class="h1-responsive font-weight-bold text-center my-4">Contactez-nous</h2>
